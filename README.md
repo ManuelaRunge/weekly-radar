@@ -8,13 +8,13 @@
 
 RIDA Radar gathers public health links into a private, source-linked reading inbox. It helps track events, policy updates, research resources and modelling tools, then select useful items for optional RIDA editorial curation.
 
-The current sources cover malaria and vaccines, cholera, neglected tropical diseases, WHO updates, and epidemiology software. The output is a Markdown briefing for human review. Nothing is automatically published.
+The current sources cover WHO global disease news and outbreaks, malaria and subnational tailoring (SNT), vaccines, cholera, neglected tropical diseases, Health Campaign Effectiveness, and epidemiology resources. The output is a Markdown briefing for human review. Nothing is automatically published.
 
 ## How it works
 
-1. **Collect** links from configured webpages and release feeds, plus manually supplied URLs.
+1. **Collect** links from configured webpages, news feeds and WHO's outbreak listing, plus manually supplied URLs.
 2. **Keep an inbox** with stable URL identifiers, first-seen dates and any manually supplied publication or event dates.
-3. **Build a briefing** with upcoming events within 180 days, dated updates from the previous 14 days, and undated discoveries.
+3. **Build a briefing** with news from the previous 30 days, giving the last 7 days prominence and WHO global disease news priority over MalVax within each period. Upcoming events within 180 days appear in chronological order.
 4. **Review and curate** the original sources before saving, sharing or selecting items for RIDA.
 
 This is an early starter: collected links are discovery leads and may include irrelevant navigation links. Dates, claims and event status require verification against the original source.
@@ -31,6 +31,8 @@ python src/brief.py
 
 Open `output/latest.md` to review the briefing and check `data/errors.json` for failed sources, even if collection exits successfully.
 
+The same rules apply to the newsletter packet (`python src/newsletter_ai.py --mode prepare`). Publication dates come from source feeds, explicit page metadata or manual entries. Undated links stay in the archive and are excluded from recent news; `first_seen` never substitutes for publication date. Historical data remains available, but malariasimulation and OpenMalaria records are excluded from briefings and newsletter packets.
+
 | File | Purpose |
 | --- | --- |
 | `config/sources.json` | Configure webpages and feeds to monitor. |
@@ -45,9 +47,9 @@ The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can
 
 ## What it does and does NOT do
 
-- Collects links from public webpages and GitHub Atom release feeds. Websites may block automated collection, change layout, or publish many irrelevant navigation links. Results are **discovery leads**, not vetted updates.
+- Collects links from public webpages, RSS feeds and WHO's public outbreak listing. Websites may block automated collection, change layout, or publish irrelevant navigation links. Results are **discovery leads**, not vetted updates.
 - Records `first_seen`, preserves items across runs and avoids simple URL duplicates. `first_seen` is **not** a publication date.
-- Accepts manually supplied publication dates and event dates; these must be checked against the source.
+- Reads publication dates from feeds and explicit page metadata, and accepts manually supplied publication and event dates; these must be checked against the source.
 - Generates a Markdown inbox highlighting upcoming dated events, dated updates and undated discoveries.
 - Does **not** extract full article texts, reliably parse dynamic sites, crawl LinkedIn, verify social-post dates, autonomously compose AI summaries, post to LinkedIn, or automatically publish anything.
 - LinkedIn links can be recorded manually if public permalinks are available. Do not use password/session scraping or violate platform access terms.

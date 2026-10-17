@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 from urllib import request, error
+from selection import select_items
 
 ROOT = Path(__file__).resolve().parents[1]
 INBOX = ROOT / "data" / "items.json"
@@ -15,38 +16,18 @@ OUT = ROOT / "output"
 INSTRUCTIONS = (ROOT / "config" / "editorial_instructions.md")
 
 def shortlist(items, max_items=90):
-    today = dt.datetime.now(dt.timezone.utc).date()
+    groups = select_items(items)
     selected = []
-    for item in items:
-        title = str(item.get("title", "")).strip()
-        url = str(item.get("url", "")).strip()
-        if not title or not url.startswith("https://"):
-            continue
-        if title.lower().startswith(("skip to", "learn more", "view all", "access the", "visit the page")):
-            continue
-        publication = item.get("published_date") or ""
-        event = item.get("event_date") or ""
-        try:
-            recent = bool(publication) and -1 <= (today - dt.date.fromisoformat(publication)).days <= 21
-        except ValueError:
-            recent = False
-        try:
-            future = bool(event) and today <= dt.date.fromisoformat(event) <= today + dt.timedelta(days=365)
-        except ValueError:
-            future = False
-        method = item.get("method", "")
-        # Carry discovery leads forward, but distinguish them from verified news.
-        if recent or future or method in ("feed", "manual") or item.get("category") in ("events", "tools"):
-            selected.append({
-                key: item.get(key, "") for key in
-                ("title", "url", "source", "category", "published_date", "event_date",
-                 "first_seen", "notes", "verification", "method", "editorial_status")
-            })
-    selected.sort(key=lambda i: (
-        bool(i.get("event_date")) or bool(i.get("published_date")),
-        bool(i.get("published_date")), i.get("first_seen", "")
-    ), reverse=True)
-    return selected[:max_items]
+    # Reserve room for the calendar even during busy news weeks.
+    per_section, remainder = divmod(max(0, max_items), 3)
+    for index, kind in enumerate(('last_7_days', 'last_30_days', 'event')):
+        for item in groups[kind][:per_section + (index < remainder)]:
+            candidate = {key: item.get(key, '') for key in
+                         ('title', 'url', 'source', 'category', 'published_date', 'event_date',
+                          'first_seen', 'notes', 'verification', 'method', 'editorial_status')}
+            candidate['recency_group'] = kind
+            selected.append(candidate)
+    return selected
 
 def prepare():
     OUT.mkdir(parents=True, exist_ok=True)
@@ -54,7 +35,7 @@ def prepare():
     packet = {
         "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
         "status": "UNVERIFIED_DISCOVERY_LEADS",
-        "instructions": "Use only verifiable details; do not invent LinkedIn posts, dates, quotes or content. Read source pages when accessible.",
+        "instructions": "News is limited to the last 30 days; lead with the last 7 days and prioritize WHO global disease news over MalVax within each period. Sort upcoming events by event date. Include malaria subnational tailoring (SNT) and Campaign Effectiveness. Exclude malariasimulation and OpenMalaria tracking. Use only verifiable details; do not invent dates or content. Read source pages when accessible.",
         "items": shortlist(items),
     }
     (OUT / "chatgpt_input.json").write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

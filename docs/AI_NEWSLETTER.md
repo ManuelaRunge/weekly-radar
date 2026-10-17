@@ -6,8 +6,11 @@
 1. Every Monday the existing scheduled workflow runs `src/collect.py` and `src/brief.py`.
 2. It also runs `python src/newsletter_ai.py --mode prepare`.
 3. This creates `output/chatgpt_input.json`: a bounded list of candidate links with source, dates and verification status, plus `output/HOW_TO_CHATGPT.md`.
+
 4. Open ChatGPT with GitHub connected and request: **"Read `output/chatgpt_input.json` and `config/editorial_instructions.md` from my RIDA Radar repository, verify original sources where accessible, and produce this week's private On the Radar newsletter. Keep RIDA post candidates separate."**
 5. Review event dates, registrations, scientific claims and LinkedIn URLs. Do not publish the automated output unchanged.
+
+Selection uses publication dates from the previous 30 days, with the last 7 days first and WHO global disease news ahead of MalVax within each period. Upcoming events within 180 days are sorted by event date. Undated leads and expired events are excluded. SNT and Campaign Effectiveness are monitored; malariasimulation and OpenMalaria tracking is disabled, including historical release records in the archive.
 
 You can run the workflow manually under GitHub **Actions → RIDA Radar → Run workflow**, after merging these changes.
 

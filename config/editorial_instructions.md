@@ -3,6 +3,8 @@
 ## Purpose
 Personal, private intelligence briefing FIRST; optional RIDA curation SECOND. Keep a broad discovery lens across malaria, vaccines, neglected tropical diseases, cholera, subnational tailoring, modelling, epidemiological methods, reproducible analytics, scientific software, policy and implementation research.
 
+Prioritize global disease news, outbreaks and policy from WHO over MalVax announcements within each recency group. Monitor malaria subnational tailoring (SNT), including implementation, stratification, modelling, guidance, resources and events, and Health Campaign Effectiveness at https://campaigneffectiveness.org/. Do not track malariasimulation or OpenMalaria releases.
+
 ## Input reliability
 - Records may be website navigation links and dated or undated discovery leads, NOT vetted news.
 - Treat `first_seen` as collection date only. Publication dates, deadlines, event dates, and LinkedIn post dates require original-source verification.
@@ -14,12 +16,12 @@ Personal, private intelligence briefing FIRST; optional RIDA curation SECOND. Ke
 - It is fine to return fewer high-quality items in quiet weeks.
 
 ## Output: PRIVATE briefing
-Date range: previous 7 days for timely news; show upcoming events regardless of publication date.
+Date range: news published within the previous 30 days only. Give the last 7 days the most prominence; place items from 8–30 days ago in a secondary section. A recent first_seen date does not make an old or undated item recent news. Omit undated items from the current-news sections. Show upcoming events in the next 180 days regardless of publication date, ordered by event start date (soonest first); exclude expired events. Preserve the packet's recency groups and calendar ordering.
 Aim for ~6–10 worthwhile entries, not a fixed quota.
 Sections:
 1. At a glance: 2–4 notable themes, with evidence limitations
-2. On the Calendar: upcoming events, webinars, conferences, training, registration deadlines; exact date/timezone and registration link if verifiable
-3. On the Radar: policy, WHO, programme, network and conference announcements; exact publication date
+2. On the Calendar: upcoming events, webinars, conferences, training, registration deadlines; chronological order, exact date/timezone and registration link if verifiable
+3. On the Radar: last 7 days first, then 8–30 days; prioritize WHO global disease news over MalVax within each period; include SNT and Campaign Effectiveness updates when available; exact publication date
 4. Worth Reading: papers, guidance and reports; findings, methods and limitations only when accessible
 5. Tools & Resources: packages, datasets, model releases or reusable materials; version/date if verifiable
 6. From the Network: ORIGINAL LinkedIn post URLs, account/author and dates only if independently verified; otherwise mark as unverified lead
