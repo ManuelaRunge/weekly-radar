@@ -49,9 +49,9 @@ def collect_source(s):
 
 def run():
     previous=ROOT/'data'/'items.json'
-    existing={x['id']:x for x in json.loads(previous.read_text())} if previous.exists() else {}
+    existing={x['id']:x for x in json.loads(previous.read_text(encoding='utf-8'))} if previous.exists() else {}
     errors=[]
-    for source in json.loads((ROOT/'config'/'sources.json').read_text()):
+    for source in json.loads((ROOT/'config'/'sources.json').read_text(encoding='utf-8')):
         try:
             for item in collect_source(source):
                 if item['id'] not in existing:existing[item['id']]=item
@@ -60,9 +60,15 @@ def run():
     with (ROOT/'config'/'manual_links.csv').open(newline='',encoding='utf-8') as f:
         for row in csv.DictReader(f):
             item=record(row['title'],row['url'],row['source'],row['category'],'manual',published_date=row['published_date'],event_date=row['event_date'],notes=row['notes'])
-            if item['id'] not in existing:existing[item['id']]=item
+            if item['id'] not in existing:
+                existing[item['id']]=item
+            else:
+                # Manual metadata takes precedence over a discovered link, while
+                # preserving its first-seen date and any editorial review state.
+                for field in ('title','source','category','method','published_date','event_date','notes'):
+                    if item[field]:existing[item['id']][field]=item[field]
     (ROOT/'data').mkdir(exist_ok=True)
-    previous.write_text(json.dumps(sorted(existing.values(),key=lambda x:x['first_seen'],reverse=True),indent=2,ensure_ascii=False)+'\n')
-    (ROOT/'data'/'errors.json').write_text(json.dumps(errors,indent=2)+'\n')
+    previous.write_text(json.dumps(sorted(existing.values(),key=lambda x:x['first_seen'],reverse=True),indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+    (ROOT/'data'/'errors.json').write_text(json.dumps(errors,indent=2)+'\n',encoding='utf-8')
     print(f'{len(existing)} total candidates; {len(errors)} source errors')
 if __name__=='__main__':run()

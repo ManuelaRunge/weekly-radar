@@ -3,7 +3,7 @@ import datetime as dt
 import json
 import pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-items=json.loads((ROOT/'data'/'items.json').read_text()) if (ROOT/'data'/'items.json').exists() else []
+items=json.loads((ROOT/'data'/'items.json').read_text(encoding='utf-8')) if (ROOT/'data'/'items.json').exists() else []
 today=dt.date.today()
 recent=[]
 upcoming=[]
