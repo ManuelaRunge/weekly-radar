@@ -1,0 +1,13 @@
+[
+ {"name":"MalVax Alliance","url":"https://www.malvax.org/","category":"vaccines","method":"page","priority":"core"},
+ {"name":"MalVax News and Events","url":"https://www.malvax.org/","category":"events","method":"page","priority":"core"},
+ {"name":"GTFCC","url":"https://www.gtfcc.org/","category":"cholera","method":"page","priority":"core"},
+ {"name":"COR-NTD","url":"https://www.cor-ntd.org/","category":"ntds","method":"page","priority":"core"},
+ {"name":"WHO News","url":"https://www.who.int/news","category":"policy","method":"page","priority":"core"},
+ {"name":"WHO NTD","url":"https://www.who.int/teams/control-of-neglected-tropical-diseases","category":"ntds","method":"page","priority":"core"},
+ {"name":"WHO Global Malaria Programme","url":"https://www.who.int/teams/global-malaria-programme","category":"malaria","method":"page","priority":"core"},
+ {"name":"AMMnet Events","url":"https://www.ammnet.org/activities/events-calendar","category":"events","method":"page","priority":"core"},
+ {"name":"CRAN Epidemiology","url":"https://cran.r-project.org/view=Epidemiology","category":"tools","method":"page","priority":"optional"},
+ {"name":"malariasimulation releases","url":"https://github.com/mrc-ide/malariasimulation/releases.atom","category":"tools","method":"feed","priority":"core"},
+ {"name":"OpenMalaria releases","url":"https://github.com/OpenMalaria-Org/openmalaria/releases.atom","category":"tools","method":"feed","priority":"optional"}
+]
