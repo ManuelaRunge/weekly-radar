@@ -11,6 +11,10 @@
 
 This is an early starter: collected links are discovery leads and may include irrelevant navigation links. Dates, claims and event status require verification against the original source.
 
+## WHO source coverage
+
+WHO discovery combines the RSS feed with the paginated headline listing and the Weekly Epidemiological Record (WER), since the feed can omit announcements. Headlines are followed until the 30-day cutoff or five pages. WER checks up to six linked HTML issues and uses each issue's explicit publication date; individual reports link directly to their article headings in the original issue. Duplicate WHO titles with the same publication date prefer the WER article. This avoids guessing report URLs from page ranges.
+
 ## Get started
 
 From the repository root, using Python 3.12:

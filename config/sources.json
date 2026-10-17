@@ -1,5 +1,7 @@
 [
  {"name":"WHO News","url":"https://www.who.int/rss-feeds/news-english.xml","category":"global-health","method":"feed","priority":"core","limit":200},
+ {"name":"WHO Headlines","url":"https://www.who.int/news-room/headlines","category":"global-health","method":"who_headlines","priority":"core","max_pages":5},
+ {"name":"WHO Weekly Epidemiological Record","url":"https://www.who.int/publications/journals/weekly-epidemiological-record","category":"global-health","method":"who_wer","priority":"core","issue_limit":6},
  {"name":"WHO Disease Outbreak News","url":"https://www.who.int/emergencies/disease-outbreak-news","category":"global-health","method":"who_outbreaks","priority":"core"},
  {"name":"SNT Toolbox","url":"https://www.snt-toolbox.org/subnational-tailoring-snt/","category":"snt","method":"page","priority":"core"},
  {"name":"Campaign Effectiveness","url":"https://campaigneffectiveness.org/feed/","category":"campaigns","method":"feed","priority":"core"},

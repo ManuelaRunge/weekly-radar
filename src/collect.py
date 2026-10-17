@@ -5,7 +5,7 @@ import hashlib
 import json
 import pathlib
 import re
-from selection import excluded, parse_date
+from selection import LOOKBACK_DAYS, excluded, parse_date
 from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 import requests
 import feedparser
@@ -18,7 +18,10 @@ HEADERS={"User-Agent":"RIDARadar/0.1 (personal research news monitor; no scrapin
 def clean_url(url):
     parts=urlsplit(url)
     query=urlencode([(k,v) for k,v in parse_qsl(parts.query) if not k.lower().startswith('utm_')])
-    return urlunsplit((parts.scheme,parts.netloc,parts.path,query,''))
+    # WER is a multi-article issue: article anchors identify distinct resources.
+    host=(parts.hostname or '').lower()
+    fragment=parts.fragment if host=='www.who.int' and re.fullmatch(r'/publications/journals/weekly-epidemiological-record/wer[\d-]+/?',parts.path) else ''
+    return urlunsplit((parts.scheme,parts.netloc,parts.path,query,fragment))
 
 def record(title,url,source,category,method,**kw):
     url=clean_url(url)
@@ -57,7 +60,7 @@ def page_dates(anchor, link):
     # Use explicit card metadata only, never arbitrary dates in link titles.
     for card in (anchor,anchor.parent,anchor.parent.parent if anchor.parent else None):
         if card is None:continue
-        nodes=card.select('time, .sf-publications-item__date, .sf-list-vertical__date')
+        nodes=card.select('time, .timestamp, .sf-publications-item__date, .sf-list-vertical__date')
         if len(nodes)==1:
             node=nodes[0]
             date=date_from_text(node.get('datetime') or node.get_text(' ',strip=True))
@@ -83,8 +86,77 @@ def collect_outbreaks(s):
     return results
 
 
+def wer_issue_links(soup, base_url):
+    links=[]
+    for anchor in soup.select('a[href]'):
+        link=urljoin(base_url,anchor['href'])
+        parts=urlsplit(link)
+        if parts.hostname=='www.who.int' and re.fullmatch(r'/publications/journals/weekly-epidemiological-record/wer[\d-]+/?',parts.path):
+            link=urlunsplit((parts.scheme,parts.netloc,parts.path.rstrip('/'),'',''))
+            if link not in links:links.append(link)
+    return links
+
+
+def parse_wer_issue(soup, issue_url, source):
+    date_node=soup.select_one('.wer-panel-issue-meta')
+    publication=date_from_text(date_node.get_text(' ',strip=True)) if date_node else ''
+    if not publication:raise ValueError(f'WER issue has no explicit publication date: {issue_url}')
+    age=(dt.date.fromisoformat(TODAY)-dt.date.fromisoformat(publication)).days
+    if not 0 <= age <= LOOKBACK_DAYS:return []
+    results=[]
+    for heading in soup.select('.wer-block h2'):
+        title=heading.get_text(' ',strip=True)
+        if not title:continue
+        anchor=heading.get('id')
+        if not anchor:
+            marker=heading.find_previous_sibling(class_='wer-anchor')
+            anchor=marker.get('id') if marker else None
+        if not anchor:continue
+        results.append(record(title,issue_url+'#'+anchor,source['name'],source['category'],'who_wer',
+            published_date=publication,notes='Original WER HTML article; publication date from issue metadata. Claims require review.'))
+    if not results:raise ValueError(f'WER issue has no article headings: {issue_url}')
+    return results
+
+
+def collect_wer(source):
+    response=requests.get(source['url'],headers=HEADERS,timeout=20)
+    response.raise_for_status()
+    pending=wer_issue_links(BeautifulSoup(response.text,'html.parser'),source['url'])
+    if not pending:raise ValueError('WER listing returned no HTML issue links')
+    seen=set()
+    results=[]
+    while pending and len(seen)<source.get('issue_limit',6):
+        link=pending.pop(0)
+        if link in seen:continue
+        seen.add(link)
+        response=requests.get(link,headers=HEADERS,timeout=20)
+        response.raise_for_status()
+        soup=BeautifulSoup(response.text,'html.parser')
+        articles=parse_wer_issue(soup,link,source)
+        results.extend(articles)
+        # Recent issue pages expose older editions absent from the landing page.
+        if articles:
+            pending.extend(url for url in wer_issue_links(soup,link) if url not in seen and url not in pending)
+    return results
+
+
+def collect_headlines(source):
+    results={}
+    cutoff=dt.date.fromisoformat(TODAY)-dt.timedelta(days=LOOKBACK_DAYS)
+    for page in range(1,source.get('max_pages',5)+1):
+        url=source['url'].rstrip('/')+(f'/{page}' if page>1 else '')
+        candidates=collect_source(dict(source,method='page',url=url))
+        news=[i for i in candidates if '/news/item/' in urlsplit(i['url']).path and parse_date(i['published_date'])]
+        if not news:raise ValueError(f'WHO headlines page returned no dated news: {url}')
+        results.update((i['id'],i) for i in news)
+        if min(dt.date.fromisoformat(i['published_date']) for i in news)<=cutoff:break
+    return list(results.values())
+
+
 def collect_source(s):
     if s['method']=='who_outbreaks':return collect_outbreaks(s)
+    if s['method']=='who_wer':return collect_wer(s)
+    if s['method']=='who_headlines':return collect_headlines(s)
     r=requests.get(s['url'],headers=HEADERS,timeout=20)
     r.raise_for_status()
     results=[]
@@ -107,7 +179,7 @@ def collect_source(s):
         seen=set()
         container=soup.find('main') or soup
         for a in container.select('a[href]'):
-            title=a.get_text(' ',strip=True)
+            title=a.get('aria-label') or a.get_text(' ',strip=True)
             link=clean_url(urljoin(s['url'],a.get('href','')))
             if not (12 <= len(title) <= 180) or not link.startswith('https://') or link in seen: continue
             if title.lower().startswith(('skip to','learn more','view all','read more')):continue

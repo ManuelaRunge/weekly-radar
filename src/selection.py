@@ -1,5 +1,6 @@
 """Shared weekly selection rules for the briefing and newsletter packet."""
 import datetime as dt
+import re
 from urllib.parse import urlsplit
 
 LOOKBACK_DAYS = 30
@@ -59,6 +60,16 @@ def select_items(items, today=None):
         kind = item_kind(item, today)
         if kind:
             groups[kind].append(item)
+    # WER reports can also appear in WHO topic listings. Prefer the original
+    # issue article over a duplicate landing-page record, keeping the archive.
+    for kind, candidates in groups.items():
+        unique={}
+        for item in candidates:
+            key=(item.get('url'),)
+            if source_rank(item)==0:
+                key=('who',tuple(re.findall(r'\w+',item['title'].casefold())),item.get('published_date'),item.get('event_date'))
+            if key not in unique or item.get('method')=='who_wer':unique[key]=item
+        groups[kind]=list(unique.values())
     for kind in ('last_7_days', 'last_30_days'):
         groups[kind].sort(key=lambda i: (source_rank(i), -parse_date(i['published_date']).toordinal(), i['title']))
     groups['event'].sort(key=lambda i: (parse_date(i['event_date']), source_rank(i), i['title']))
