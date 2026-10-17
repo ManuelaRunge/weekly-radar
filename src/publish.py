@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 
 from selection import select_items
+from formatting import display_text
 
 ROOT = Path(__file__).resolve().parents[1]
 START = '<!-- LATEST-BRIEFING:START -->'
@@ -25,7 +26,7 @@ def embed_briefing(readme, briefing, error_count):
 
 def release_notes(briefing, items, errors, now, tag='', run_url=''):
     groups = select_items(items, now.date())
-    lines = ['# RIDA Radar — run notes', '', f'Generated (UTC): {now.isoformat()}', '']
+    lines = ['# RIDA Radar – run notes', '', f'Generated (UTC): {now.isoformat()}', '']
     if tag:
         lines.extend([f'Tag: `{tag}`', ''])
     if run_url:
@@ -42,7 +43,7 @@ def release_notes(briefing, items, errors, now, tag='', run_url=''):
         lines.append(f'Completed with **{len(errors)} source error(s)**; coverage is incomplete.')
         lines.append('')
         for failure in errors:
-            lines.append(f'- **{failure["source"]}**: {failure["error"]}')
+            lines.append(f'- **{display_text(failure["source"])}**: {display_text(failure["error"])}')
     else:
         lines.append('All configured source requests completed without reported errors.')
     lines.extend(['', '## Briefing', '', briefing.strip(), ''])

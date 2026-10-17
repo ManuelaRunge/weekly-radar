@@ -32,10 +32,15 @@ def date_from_text(text):
     text=str(text).strip()
     iso=re.search(r'(?<!\d)\d{4}-\d{2}-\d{2}(?!\d)',text)
     if iso and parse_date(iso.group()):return iso.group()
-    match=re.search(r'\b\d{1,2} [A-Za-z]+ \d{4}\b',text)
+    match=re.search(r'\b(\d{1,2})(?:\s*[–-]\s*\d{1,2})?\s+([A-Za-z]+)\s+(\d{4})\b',text)
     if match:
         for fmt in ('%d %B %Y','%d %b %Y'):
-            try:return dt.datetime.strptime(match.group(),fmt).date().isoformat()
+            try:return dt.datetime.strptime(' '.join(match.groups()),fmt).date().isoformat()
+            except ValueError:pass
+    match=re.search(r'\b[A-Za-z]+ \d{1,2},? \d{4}\b',text)
+    if match:
+        for fmt in ('%B %d %Y','%b %d %Y'):
+            try:return dt.datetime.strptime(match.group().replace(',',''),fmt).date().isoformat()
             except ValueError:pass
     return ''
 
@@ -78,7 +83,7 @@ def collect_outbreaks(s):
     results=[]
     for entry in response.json()['value']:
         title=(entry.get('OverrideTitle') if entry.get('UseOverrideTitle') else '') or entry['Title']
-        if entry.get('TitleSuffix'):title+=' — '+entry['TitleSuffix']
+        if entry.get('TitleSuffix'):title+=' – '+entry['TitleSuffix']
         link=s['url'].rstrip('/')+'/item/'+entry['ItemDefaultUrl'].lstrip('/')
         results.append(record(title,link,s['name'],s['category'],'who_outbreaks',
             published_date=date_from_text(entry.get('PublicationDateAndTime','')),
@@ -153,12 +158,34 @@ def collect_headlines(source):
     return list(results.values())
 
 
+def parse_cards(html, source):
+    soup=BeautifulSoup(html,'html.parser')
+    cards=soup.select(source['item_selector'])
+    if not cards:raise ValueError('No content cards found; check source layout and selectors')
+    results={}
+    for card in cards[:source.get('limit',100)]:
+        title_node=card.select_one(source['title_selector'])
+        anchor=card if card.name=='a' else card.select_one('a[href]')
+        if title_node and title_node.name=='a':anchor=title_node
+        if not title_node or not anchor or not anchor.get('href'):continue
+        title=title_node.get_text(' ',strip=True)
+        link=urljoin(source['url'],anchor['href'])
+        if not title or not link.startswith('https://'):continue
+        date_node=card.select_one(source['date_selector']) if source.get('date_selector') else card
+        date=date_from_text(date_node.get('datetime') or date_node.get_text(' ',strip=True)) if date_node else ''
+        dates={'event_date' if source.get('date_type')=='event' else 'published_date':date}
+        item=record(title,link,source['name'],source['category'],'cards',**dates)
+        results[item['id']]=item
+    return list(results.values())
+
+
 def collect_source(s):
     if s['method']=='who_outbreaks':return collect_outbreaks(s)
     if s['method']=='who_wer':return collect_wer(s)
     if s['method']=='who_headlines':return collect_headlines(s)
     r=requests.get(s['url'],headers=HEADERS,timeout=20)
     r.raise_for_status()
+    if s['method']=='cards':return parse_cards(r.text,s)
     results=[]
     if s['method']=='feed':
         parsed=feedparser.parse(r.content)

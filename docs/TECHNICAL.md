@@ -1,4 +1,4 @@
-# RIDA Radar — technical guide
+# RIDA Radar – technical guide
 
 [Read the latest briefing](../README.md#latest-briefing) · [Newsletter preparation](AI_NEWSLETTER.md)
 
@@ -14,6 +14,12 @@ This is an early starter: collected links are discovery leads and may include ir
 ## WHO source coverage
 
 WHO discovery combines the RSS feed with the paginated headline listing and the Weekly Epidemiological Record (WER), since the feed can omit announcements. Headlines are followed until the 30-day cutoff or five pages. WER checks up to six linked HTML issues and uses each issue's explicit publication date; individual reports link directly to their article headings in the original issue. Duplicate WHO titles with the same publication date prefer the WER article. This avoids guessing report URLs from page ranges.
+
+## Modelling and research networks
+
+The weekly sources also include AMMnet (home, events and newsletters), Measles Analytics Hub (home, news and calendar), VIMC (dated news feed), TB-MAC (home, meetings and newsletters), DNDi (dated news cards), and CEMA at the University of Nairobi (home and news). AMMnet's event cards supply explicit event dates and titles. Empty TB-MAC and DNDi RSS feeds are avoided in favour of their public pages. Undated pages remain discovery leads in the archive; incomplete dates such as a day and month without a year are not promoted to recent news or upcoming events.
+
+Reader-facing output uses en dashes and places each source/publisher in parentheses after the link: `[Title](https://example.org/) (Publisher)`.
 
 ## Get started
 

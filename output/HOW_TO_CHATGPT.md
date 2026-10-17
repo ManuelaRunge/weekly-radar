@@ -1,4 +1,4 @@
-# RIDA Radar — ChatGPT curation instructions
+# RIDA Radar – ChatGPT curation instructions
 
 1. Open `output/chatgpt_input.json` and `config/editorial_instructions.md`.
 2. Paste or attach the JSON to ChatGPT, along with the editorial instructions, or ask ChatGPT with repository access to read both files.

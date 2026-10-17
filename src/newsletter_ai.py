@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 from urllib import request, error
 from selection import select_items
+from formatting import display_text
 
 ROOT = Path(__file__).resolve().parents[1]
 INBOX = ROOT / "data" / "items.json"
@@ -26,6 +27,8 @@ def shortlist(items, max_items=90):
                          ('title', 'url', 'source', 'category', 'published_date', 'event_date',
                           'first_seen', 'notes', 'verification', 'method', 'editorial_status')}
             candidate['recency_group'] = kind
+            for field in ('title', 'source', 'notes'):
+                candidate[field] = display_text(candidate[field])
             selected.append(candidate)
     return selected
 
@@ -35,12 +38,12 @@ def prepare():
     packet = {
         "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
         "status": "UNVERIFIED_DISCOVERY_LEADS",
-        "instructions": "News is limited to the last 30 days; lead with the last 7 days and prioritize WHO global disease news over MalVax within each period. Sort upcoming events by event date. Include malaria subnational tailoring (SNT) and Campaign Effectiveness. Exclude malariasimulation and OpenMalaria tracking. Use only verifiable details; do not invent dates or content. Read source pages when accessible.",
+        "instructions": "News is limited to the last 30 days; lead with the last 7 days and prioritize WHO global disease news over MalVax within each period. Sort upcoming events by event date. Include malaria subnational tailoring (SNT) and Campaign Effectiveness. Exclude malariasimulation and OpenMalaria tracking. Use en dashes, never em dashes; put the publisher in parentheses after each entry's original link. Use only verifiable details; do not invent dates or content. Read source pages when accessible.",
         "items": shortlist(items),
     }
     (OUT / "chatgpt_input.json").write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     markdown = (
-        "# RIDA Radar — ChatGPT curation instructions\n\n"
+        "# RIDA Radar – ChatGPT curation instructions\n\n"
         "1. Open `output/chatgpt_input.json` and `config/editorial_instructions.md`.\n"
         "2. Paste or attach the JSON to ChatGPT, along with the editorial instructions, "
         "or ask ChatGPT with repository access to read both files.\n"
@@ -81,7 +84,7 @@ def run_api(packet, model):
     if not text:
         raise SystemExit("API response contained no newsletter text. Review the API response before retrying.")
     (OUT / "ai_draft.md").write_text(text + "\n", encoding="utf-8")
-    print("Created output/ai_draft.md — draft only, not verified or published.")
+    print("Created output/ai_draft.md – draft only, not verified or published.")
 
 def main():
     parser = argparse.ArgumentParser()
