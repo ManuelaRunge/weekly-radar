@@ -9,7 +9,7 @@
 4. Open ChatGPT with GitHub connected and request: **"Read `output/chatgpt_input.json` and `config/editorial_instructions.md` from my RIDA Radar repository, verify original sources where accessible, and produce this week's private On the Radar newsletter. Keep RIDA post candidates separate."**
 5. Review event dates, registrations, scientific claims and LinkedIn URLs. Do not publish the automated output unchanged.
 
-You can run the workflow manually under GitHub **Actions → RIDA Radar (private review) → Run workflow**, after merging these changes.
+You can run the workflow manually under GitHub **Actions → RIDA Radar → Run workflow**, after merging these changes.
 
 ## Run locally (optional)
 ```sh

@@ -41,7 +41,7 @@ Open `output/latest.md` to review the briefing and check `data/errors.json` for 
 
 ## Weekly automation
 
-The **RIDA Radar (private review)** GitHub Actions workflow runs each Monday at 06:15 UTC and can also be started manually. Enable Actions and allow repository contents write access for its commit-back step, which saves generated data and the briefing to this repository. Keep the repository private if the inbox should remain private.
+The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can also be started manually. Enable Actions and allow repository contents write access for its commit-back step, which saves generated data and the briefing to this repository. Keep the repository private if the inbox should remain private.
 
 ## What it does and does NOT do
 
