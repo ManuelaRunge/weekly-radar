@@ -19,7 +19,6 @@ for kind,heading,limit in (
         date=i['event_date'] if kind=='event' else i['published_date']
         lines.append(f'- **{date}** [{i["title"]}]({i["url"]}) — {i["source"]}')
     if not groups[kind]:lines.append('No eligible dated items in this section.')
-lines.extend(['','## LinkedIn posts to review','Add verified public LinkedIn post permalinks to `config/manual_links.csv`; do not guess publication dates.','','## RIDA publishing shortlist','Choose at most 1–3 items manually. Nothing is approved or published by this script.'])
 (ROOT/'output').mkdir(exist_ok=True)
 (ROOT/'output'/'latest.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 print('Created output/latest.md')

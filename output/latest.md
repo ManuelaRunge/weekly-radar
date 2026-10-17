@@ -25,9 +25,3 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG) 27 – 29 October 2026](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) — WHO Global Malaria Programme
 - **2026-11-30** [30 November 2026 15:00 – 16:30 CET Strengthening Blackfly Surveillance for the Onchocerciasis Endgame](https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame) — WHO NTD
 - **2027-01-31** [MalVax 2027](https://www.malvax.org/) — MalVax
-
-## LinkedIn posts to review
-Add verified public LinkedIn post permalinks to `config/manual_links.csv`; do not guess publication dates.
-
-## RIDA publishing shortlist
-Choose at most 1–3 items manually. Nothing is approved or published by this script.

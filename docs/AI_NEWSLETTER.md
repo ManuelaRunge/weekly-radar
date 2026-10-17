@@ -6,6 +6,7 @@
 1. Every Monday the existing scheduled workflow runs `src/collect.py` and `src/brief.py`.
 2. It also runs `python src/newsletter_ai.py --mode prepare`.
 3. This creates `output/chatgpt_input.json`: a bounded list of candidate links with source, dates and verification status, plus `output/HOW_TO_CHATGPT.md`.
+   The workflow then embeds `output/latest.md` in the README and publishes a tagged briefing release with run notes and Markdown downloads; see the [technical guide](TECHNICAL.md#releases-and-tags).
 
 4. Open ChatGPT with GitHub connected and request: **"Read `output/chatgpt_input.json` and `config/editorial_instructions.md` from my RIDA Radar repository, verify original sources where accessible, and produce this week's private On the Radar newsletter. Keep RIDA post candidates separate."**
 5. Review event dates, registrations, scientific claims and LinkedIn URLs. Do not publish the automated output unchanged.

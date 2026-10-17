@@ -1,78 +1,61 @@
 # RIDA Radar
 
 [![Radar workflow](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/workflows/radar.yml/badge.svg)](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/workflows/radar.yml)
-![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Status: starter](https://img.shields.io/badge/Status-starter-orange)
+[![Latest release](https://img.shields.io/github/v/release/runge-infectious-disease-analytics/rida-radar?label=Latest%20briefing)](https://github.com/runge-infectious-disease-analytics/rida-radar/releases/latest)
 ![Public health](https://img.shields.io/badge/Focus-public%20health-teal)
-![Manual review](https://img.shields.io/badge/Publishing-manual%20review-blue)
+![Weekly](https://img.shields.io/badge/Updates-weekly-blue)
 
-RIDA Radar gathers public health links into a private, source-linked reading inbox. It helps track events, policy updates, research resources and modelling tools, then select useful items for optional RIDA editorial curation.
+A weekly reading inbox for global disease news, malaria subnational tailoring (SNT), campaign effectiveness, policy, resources and upcoming events. Read the latest output below or browse dated releases to revisit an earlier briefing.
 
-The current sources cover WHO global disease news and outbreaks, malaria and subnational tailoring (SNT), vaccines, cholera, neglected tropical diseases, Health Campaign Effectiveness, and epidemiology resources. The output is a Markdown briefing for human review. Nothing is automatically published.
+[Briefing file](output/latest.md) · [Latest release and downloads](https://github.com/runge-infectious-disease-analytics/rida-radar/releases/latest) · [All briefings and tags](https://github.com/runge-infectious-disease-analytics/rida-radar/releases) · [Run notes](output/release_notes.md)
 
-## How it works
+## Latest briefing
 
-1. **Collect** links from configured webpages, news feeds and WHO's outbreak listing, plus manually supplied URLs.
-2. **Keep an inbox** with stable URL identifiers, first-seen dates and any manually supplied publication or event dates.
-3. **Build a briefing** with news from the previous 30 days, giving the last 7 days prominence and WHO global disease news priority over MalVax within each period. Upcoming events within 180 days appear in chronological order.
-4. **Review and curate** the original sources before saving, sharing or selecting items for RIDA.
+Updated automatically with each successful weekly or manual workflow run. News covers 30 days, with the last seven days highlighted and WHO prioritized; events appear soonest first.
 
-This is an early starter: collected links are discovery leads and may include irrelevant navigation links. Dates, claims and event status require verification against the original source.
+<!-- LATEST-BRIEFING:START -->
 
-## Get started
+### RIDA Radar — briefing (2026-10-17)
 
-From the repository root, using Python 3.12:
+> Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
-```sh
-python -m pip install -r requirements.txt
-python src/collect.py
-python src/brief.py
-```
+News covers the previous 30 days, with the last 7 days first and WHO leading within each period. Upcoming events cover the next 180 days, soonest first. Undated leads remain in data/items.json and are excluded from recent news.
 
-Open `output/latest.md` to review the briefing and check `data/errors.json` for failed sources, even if collection exits successfully.
+#### Priority updates — last 7 days
+- **2026-10-15** [15 October 2026 Departmental update Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria](https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) — WHO NTD
+- **2026-10-15** [Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia](https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---kingdom-of-saudi-arabia) — WHO Disease Outbreak News
+- **2026-10-15** [WHO NTD inclusion criteria review](https://www.who.int/japan/news/detail-global/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) — WHO
+- **2026-10-13** [WHO NTD supply chain alignment](https://www.who.int/news/item/13-10-2026-who-and-partners-drive-improved-alignment-for-effective-ntd-and-supply-chain-delivery) — WHO
+- **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) — WHO Disease Outbreak News
 
-The same rules apply to the newsletter packet (`python src/newsletter_ai.py --mode prepare`). Publication dates come from source feeds, explicit page metadata or manual entries. Undated links stay in the archive and are excluded from recent news; `first_seen` never substitutes for publication date. Historical data remains available, but malariasimulation and OpenMalaria records are excluded from briefings and newsletter packets.
+#### Other updates — 8–30 days ago
+- **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/i/item/who-wer10140-290-297) — WHO NTD
+- **2026-10-09** [Global dengue update](https://www.who.int/publications/i/item/who-wer10140-285-289) — WHO NTD
+- **2026-10-08** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619) — WHO Disease Outbreak News
+- **2026-09-28** [28 September 2026 Departmental update In memoriam: Dr Bernard Philippon (1939–2026)](https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026) — WHO NTD
+- **2026-09-25** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618) — WHO Disease Outbreak News
+- **2026-10-07** [Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness](https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/) — Campaign Effectiveness
+- **2026-10-05** [What Changes When Health Campaigns Stop Working in Silos?](https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/) — Campaign Effectiveness resources
+- **2026-09-23** [August Campaign Connections](https://mailchi.mp/taskforce/aug-2026-campaign-connections-12780487?e=712034d7c5) — Campaign Effectiveness
 
-| File | Purpose |
-| --- | --- |
-| `config/sources.json` | Configure webpages and feeds to monitor. |
-| `config/manual_links.csv` | Add explicit URLs, dates and notes, including public LinkedIn permalinks. |
-| `data/items.json` | Persistent collection of discovered candidates. |
-| `data/errors.json` | Source failures from the latest collection run. |
-| `output/latest.md` | Generated reading inbox and manual publishing shortlist. |
+#### Upcoming events — by date
+- **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG) 27 – 29 October 2026](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) — WHO Global Malaria Programme
+- **2026-11-30** [30 November 2026 15:00 – 16:30 CET Strengthening Blackfly Surveillance for the Onchocerciasis Endgame](https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame) — WHO NTD
+- **2027-01-31** [MalVax 2027](https://www.malvax.org/) — MalVax
 
-## Weekly automation
+Collection status: **1 source error(s)**. See [source report](data/errors.json).
 
-The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can also be started manually. Enable Actions and allow repository contents write access for its commit-back step, which saves generated data and the briefing to this repository. Keep the repository private if the inbox should remain private.
+<!-- LATEST-BRIEFING:END -->
 
-## What it does and does NOT do
+## About these outputs
 
-- Collects links from public webpages, RSS feeds and WHO's public outbreak listing. Websites may block automated collection, change layout, or publish irrelevant navigation links. Results are **discovery leads**, not vetted updates.
-- Records `first_seen`, preserves items across runs and avoids simple URL duplicates. `first_seen` is **not** a publication date.
-- Reads publication dates from feeds and explicit page metadata, and accepts manually supplied publication and event dates; these must be checked against the source.
-- Generates a Markdown inbox highlighting upcoming dated events, dated updates and undated discoveries.
-- Does **not** extract full article texts, reliably parse dynamic sites, crawl LinkedIn, verify social-post dates, autonomously compose AI summaries, post to LinkedIn, or automatically publish anything.
-- LinkedIn links can be recorded manually if public permalinks are available. Do not use password/session scraping or violate platform access terms.
-- Github Actions schedules can be delayed or skipped; do not use this workflow for deadline-critical alerts.
+These are source-linked discovery leads for human review. Verify dates, claims and event details before relying on or sharing them. Each completed run refreshes this page and creates a tagged GitHub Release containing the briefing, run notes and downloadable Markdown files. Coverage gaps are recorded in the run notes.
 
-## Recommended development roadmap
+For setup, source configuration, scheduling and release mechanics, see the [technical guide](docs/TECHNICAL.md). For optional newsletter drafting, see [ChatGPT preparation](docs/AI_NEWSLETTER.md).
 
-1. Build source-specific RSS/API collectors for WHO news, event calendars and journals; improve event-date extraction and content relevance filtering.
-2. Add a verified item schema (source date, event deadline, source permalink, LinkedIn permalink, checked timestamp) and tests.
-3. Add a private weekly reading interface (CSV or Streamlit): save, attend, read, share, ignore.
-4. Add opt-in AI curation fed with source text, not just titles. Require evidence links and flag uncertainty.
-5. Generate separate personal briefing vs RIDA editorial candidates; allow approval and export to website Markdown, never autopost.
+<details>
+<summary>AI assistance and disclaimer</summary>
 
-## Suggested categories
+Parts of this project were generated with OpenAI Codex. Commit messages distinguish AI-generated, human-authored and mixed contributions. AI assistance does not imply validation. Information is for research and discovery, not medical advice.
 
-- Events and deadlines; Policy and guidance; Worth reading; Tools and methods; From the network (LinkedIn); For further exploration.
-
-## Privacy, ownership and copyright
-
-Keep this repository private initially. Reuse generic code, not employer proprietary assets or project information. Link back to original sources. Avoid redistributing full articles and copyrighted images. If using an external AI API, review the privacy and copyright implications of the material you send.
-
-## AI assistance
-
-![AI assisted](https://img.shields.io/badge/Development-AI%20assisted-blue)
-
-Parts of this project were generated with OpenAI Codex. Use `AI-generated:`, `Human-authored:` or `Mixed:` in commit messages to describe contribution provenance. AI assistance does not imply validation; review and test changes. Collected information is for research and discovery, not medical advice.
+</details>

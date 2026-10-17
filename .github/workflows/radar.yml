@@ -5,21 +5,44 @@ on:
     - cron: '15 6 * * 1'
 permissions:
   contents: write
+concurrency:
+  group: rida-radar-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   generate:
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
       - run: python src/collect.py
       - run: python src/brief.py
       - run: python src/newsletter_ai.py --mode prepare
-      - name: Commit private briefing and data
+      - name: Prepare briefing release
+        run: |
+          echo "RADAR_TAG=radar-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+      - run: python src/publish.py
+      - name: Commit briefing, README and run notes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data output
-          git diff --cached --quiet || (git commit -m 'Update private radar briefing' && git push)
+          git add README.md data output
+          if ! git diff --cached --quiet; then
+            git commit -m "Update radar briefing ${RADAR_TAG}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Publish tagged briefing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$RADAR_TAG" output/latest.md output/release_notes.md \
+            --target "$(git rev-parse HEAD)" \
+            --title "RIDA Radar — ${RADAR_TAG}" \
+            --notes-file output/release_notes.md \
+            --latest
