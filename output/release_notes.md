@@ -1,6 +1,10 @@
 # RIDA Radar — run notes
 
-Generated (UTC): 2026-10-17T18:41:00.473218+00:00
+Generated (UTC): 2026-10-17T18:43:23.754062+00:00
+
+Tag: `radar-20261017T184323Z-39059307512-1`
+
+[Workflow run](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/runs/39059307512)
 
 ## Run summary
 
