@@ -15,32 +15,63 @@ Updated automatically with each successful weekly or manual workflow run. News c
 
 <!-- LATEST-BRIEFING:START -->
 
-### RIDA Radar – briefing (2026-10-17)
+### RIDA Radar – briefing (2026-10-19)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
 News covers the previous 30 days, with the last 7 days first and WHO leading within each period. Upcoming events cover the next 180 days, soonest first. Undated leads remain in data/items.json and are excluded from recent news.
 
 #### Priority updates – last 7 days
-- **2026-10-15** [15 October 2026 Departmental update Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria](https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO NTD)
+- **2026-10-16** [Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#bvd-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-continued-transmission-and-risk-of-further-spread) (WHO Weekly Epidemiological Record)
+- **2026-10-16** [Global respiratory virus activity: weekly update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update) (WHO Weekly Epidemiological Record)
+- **2026-10-16** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
+- **2026-10-16** [Recommended composition of influenza virus vaccines for use in the 2027 southern hemisphere influenza season](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#influenza-vaccine-2027-recommended-composition-of-influenza-virus-vaccines-for-use-in-the-2027-southern-hemisphere-influenza-season) (WHO Weekly Epidemiological Record)
 - **2026-10-15** [Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia](https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---kingdom-of-saudi-arabia) (WHO Disease Outbreak News)
+- **2026-10-15** [Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria](https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO NTD)
 - **2026-10-15** [WHO NTD inclusion criteria review](https://www.who.int/japan/news/detail-global/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO)
 - **2026-10-13** [WHO NTD supply chain alignment](https://www.who.int/news/item/13-10-2026-who-and-partners-drive-improved-alignment-for-effective-ntd-and-supply-chain-delivery) (WHO)
-- **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) (WHO Disease Outbreak News)
+- **2026-10-12** [IPC Sudan Food Insecurity and Malnutrition Alert](https://www.who.int/news/item/12-10-2026-ipc-sudan-food-insecurity-and-malnutrition-alert) (WHO Headlines)
+- **2026-10-12** [WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours](https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours) (WHO Headlines)
+- **2026-10-12** [WHO welcomes adoption of United Nations political declaration on pandemic prevention, preparedness and response](https://www.who.int/news/item/12-10-2026-who-welcomes-adoption-of-united-nations-political-declaration-on-pandemic-prevention-preparedness-and-response) (WHO Headlines)
 
 #### Other updates – 8–30 days ago
-- **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/i/item/who-wer10140-290-297) (WHO NTD)
-- **2026-10-09** [Global dengue update](https://www.who.int/publications/i/item/who-wer10140-285-289) (WHO NTD)
+- **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) (WHO Disease Outbreak News)
+- **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026) (WHO Weekly Epidemiological Record)
+- **2026-10-09** [Global dengue update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#dengue-global-dengue-update) (WHO Weekly Epidemiological Record)
+- **2026-10-09** [Highlighted Signals and Events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
+- **2026-10-09** [Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American Conference on Onchocerciasis (IACO) 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-americas-progress-in-eliminating-onchocerciasis-in-the-who-region-of-the-americas-report-from-the-xxxv-inter-american-c) (WHO Weekly Epidemiological Record)
+- **2026-10-09** [WHO urges shift from institutional to community-based mental health care](https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care) (WHO Headlines)
 - **2026-10-08** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619) (WHO Disease Outbreak News)
-- **2026-09-28** [28 September 2026 Departmental update In memoriam: Dr Bernard Philippon (1939–2026)](https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026) (WHO NTD)
+- **2026-10-08** [New global roadmap launched to tackle hypertension in pregnancy, a leading cause of maternal and newborn deaths](https://www.who.int/news/item/08-10-2026-new-global-roadmap-launched-to-tackle-hypertension-in-pregnancy-a-leading-cause-of-maternal-and-newborn-deaths) (WHO Headlines)
+- **2026-10-07** [WHO issues first global guidelines on child and adolescent obesity](https://www.who.int/news/item/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity) (WHO Headlines)
+- **2026-10-02** [Global Yellow Fever Update, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39#global-yellow-fever-update-2025) (WHO Weekly Epidemiological Record)
+- **2026-10-02** [Global programme to eliminate lymphatic filariasis: progress report, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39#global-programme-to-eliminate-lymphatic-filariasis-progress-report-2025) (WHO Weekly Epidemiological Record)
+- **2026-10-02** [Highlighted Signals and Events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39#signals) (WHO Weekly Epidemiological Record)
+- **2026-10-02** [Multi-country outbreak of cholera](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-39#multi-country-outbreak-of-cholera) (WHO Weekly Epidemiological Record)
+- **2026-09-30** [WHO releases new guidance to prevent heat-related illness at mass gatherings](https://www.who.int/news/item/30-09-2026-who-releases-new-guidance-to-prevent-heat-related-illness-at-mass-gatherings) (WHO Headlines)
+- **2026-09-29** [WHO reports latest global trends in cholera, meningitis and plague](https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague) (WHO Headlines)
+- **2026-09-28** [In memoriam: Dr Bernard Philippon (1939–2026)](https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026) (WHO NTD)
+- **2026-09-25** [Cholera Annual Report, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#cholera) (WHO Weekly Epidemiological Record)
+- **2026-09-25** [Control of epidemic meningitis in countries in the African meningitis belt, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#meningitis) (WHO Weekly Epidemiological Record)
 - **2026-09-25** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618) (WHO Disease Outbreak News)
+- **2026-09-25** [Global Respiratory Virus Activity: Weekly Update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#respiratory-virus-activity) (WHO Weekly Epidemiological Record)
+- **2026-09-25** [Highlighted Signals and Events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#signals) (WHO Weekly Epidemiological Record)
+- **2026-09-25** [Human plague, 2019 to 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#plague) (WHO Weekly Epidemiological Record)
+- **2026-09-25** [Recommendations announced for influenza vaccine composition for the 2027 southern hemisphere influenza season](https://www.who.int/news/item/25-09-2026-recommendations-announced-for-influenza-vaccine-composition-for-the-2027-southern-hemisphere-influenza-season) (WHO Headlines)
+- **2026-09-25** [WHO announces expansion of prequalification programme for medical devices](https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices) (WHO Headlines)
+- **2026-09-25** [World leaders renew commitment to protect the world from future pandemics](https://www.who.int/news/item/25-09-2026-world-leaders-renew-commitment-to-protect-the-world-from-future-pandemics) (WHO Headlines)
+- **2026-09-23** [WHO expands safe options for contraception](https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception) (WHO Headlines)
 - **2026-10-07** [Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness](https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/) (Campaign Effectiveness)
 - **2026-10-05** [What Changes When Health Campaigns Stop Working in Silos?](https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/) (Campaign Effectiveness resources)
 - **2026-09-23** [August Campaign Connections](https://mailchi.mp/taskforce/aug-2026-campaign-connections-12780487?e=712034d7c5) (Campaign Effectiveness)
+- **2026-10-09** [DNDi 2026 Projects of the Year recognize teams and partners for their work to advance an open-science antiviral for future coronavirus pandemics and a single-dose treatment for sleeping sickness](https://dndi.org/news/2026/dndi-2026-projects-of-the-year-recognize-contributions-open-science-antiviral-future-coronavirus-pandemics-sleeping-sickness/) (DNDi)
 
 #### Upcoming events – by date
-- **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG) 27 – 29 October 2026](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) (WHO Global Malaria Programme)
-- **2026-11-30** [30 November 2026 15:00 – 16:30 CET Strengthening Blackfly Surveillance for the Onchocerciasis Endgame](https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame) (WHO NTD)
+- **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG)](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) (WHO Global Malaria Programme)
+- **2026-10-28** [Francophone Webinar Series: The Role of Community Health Clubs (Laafi Ton) in the Fight Against Malaria in the Village of Beun, Léo Health District, Burkina Faso](https://www.ammnet.org/seminars/francophone-webinar-series-the-role-of-community-health-clubs-laafi-ton-in-the-fight-against-malaria-in-the-village-of-beun-leo-health-district-burkina-faso) (AMMnet Events)
+- **2026-11-03** [From Elimination to Certification: Cabo Verde's Journey to a Malaria-Free Country](https://www.ammnet.org/seminars/malaria-elimination-journey-in-cabe-verde) (AMMnet Events)
+- **2026-11-10** [Hackathon: Working with an AI Coding Agent: Epidemic Forecasting from Partial Outbreak Data](https://www.ammnet.org/seminars/hackathon-working-with-an-ai-coding-agent-epidemic-forecasting-from-partial-outbreak-data) (AMMnet Events)
+- **2026-11-30** [Strengthening Blackfly Surveillance for the Onchocerciasis Endgame](https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame) (WHO NTD)
 - **2027-01-31** [MalVax 2027](https://www.malvax.org/) (MalVax)
 
 Collection status: **1 source error(s)**. See [source report](data/errors.json).
