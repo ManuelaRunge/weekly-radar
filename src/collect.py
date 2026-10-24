@@ -10,6 +10,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 import requests
 import feedparser
 from bs4 import BeautifulSoup
+from funder_sources import gates_news, keyword_match, worldbank_news
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 TODAY=dt.datetime.now(dt.timezone.utc).date().isoformat()
@@ -175,11 +176,22 @@ def parse_cards(html, source):
         date=date_from_text(date_node.get('datetime') or date_node.get_text(' ',strip=True)) if date_node else ''
         dates={'event_date' if source.get('date_type')=='event' else 'published_date':date}
         item=record(title,link,source['name'],source['category'],'cards',**dates)
+        if source.get('summary_selector'):
+            summary=card.select_one(source['summary_selector'])
+            if summary:item['notes']=summary.get_text(' ',strip=True)[:1000]
         results[item['id']]=item
     return list(results.values())
 
 
-def collect_source(s):
+def collect_source(source):
+    records=_collect_source(source)
+    groups=source.get('keyword_groups',[])
+    return [item for item in records if keyword_match(item['title']+' '+item.get('notes',''),groups)]
+
+
+def _collect_source(s):
+    if s['method']=='gates_news':return gates_news(s,HEADERS,record,date_from_text)
+    if s['method']=='worldbank_news':return worldbank_news(s,HEADERS,record,date_from_text)
     if s['method']=='who_outbreaks':return collect_outbreaks(s)
     if s['method']=='who_wer':return collect_wer(s)
     if s['method']=='who_headlines':return collect_headlines(s)
@@ -198,7 +210,8 @@ def collect_source(s):
             # WHO's feed can reissue old news with a new feed timestamp. Prefer
             # the original publication date encoded in the canonical news URL.
             publication=url_dates(link).get('published_date') or publication
-            results.append(record(entry.get('title','Untitled'),link,s['name'],s['category'],'feed',published_date=publication,notes=f'Source feed date: {date}; original WHO URL date takes precedence when present; claims require review.'))
+            summary=BeautifulSoup(entry.get('summary',''),'html.parser').get_text(' ',strip=True)[:1000] if s.get('keyword_groups') else ''
+            results.append(record(entry.get('title','Untitled'),link,s['name'],s['category'],'feed',published_date=publication,notes=f'Source feed date: {date}; original WHO URL date takes precedence when present; claims require review. '+summary))
     else:
         soup=BeautifulSoup(r.text,'html.parser')
         for node in soup(['script','style','nav','footer','header']): node.decompose()

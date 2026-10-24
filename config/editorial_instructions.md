@@ -7,6 +7,8 @@ Prioritize global disease news, outbreaks and policy from WHO over MalVax announ
 
 Also follow AMMnet, the Measles Analytics Hub, the Vaccine Impact Modelling Consortium (VIMC), TB-MAC, DNDi, and CEMA at the University of Nairobi for news, resources, opportunities and events. Include items only when they satisfy the date and evidence rules below; do not fill quiet weeks with undated pages.
 
+Include global and national health-financing news from major funders: the Global Fund, Gavi, World Bank, Gates Foundation and Wellcome. Watch for pledges and replenishments, aid changes, grants and concessional loans, domestic health budgets, co-financing, insurance and health-financing reforms, and country-level allocations. Integrate relevant items into the existing sections and recency groups; do not create a separate funders or financing section. Distinguish a funding pledge or approval from an actual disbursement and retain the country, currency and amount only when supported by the original source.
+
 ## Input reliability
 - Records may be website navigation links and dated or undated discovery leads, NOT vetted news.
 - Treat `first_seen` as collection date only. Publication dates, deadlines, event dates, and LinkedIn post dates require original-source verification.

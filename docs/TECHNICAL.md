@@ -21,6 +21,8 @@ The weekly sources also include AMMnet (home, events and newsletters), Measles A
 
 Reader-facing output uses en dashes and places each source/publisher in parentheses after the link: `[Title](https://example.org/) (Publisher)`.
 
+Additional financing sources are [the Global Fund's latest feed](https://www.theglobalfund.org/data/rss-feeds/latest/), [Gavi press releases](https://www.gavi.org/news-insights/media-room/press-releases), [World Bank health news](https://www.worldbank.org/en/topic/health/news), [Gates Foundation's media centre](https://www.gatesfoundation.org/ideas/media-center), and [Wellcome articles](https://wellcome.org/insights/articles). Financing keyword groups screen titles and available source summaries; Gates and World Bank additionally require a health-related match. Gates and World Bank's public listing APIs are discovered from their news pages rather than hardcoding changing listing IDs. These items share the existing 30-day news window and seven-day prominence, with no separate briefing section. Missing dates are never replaced by discovery dates. The GFF newsroom currently blocks automated requests and is not enabled.
+
 ## Get started
 
 From the repository root, using Python 3.12:
