@@ -1,15 +1,15 @@
 # RIDA Radar – run notes
 
-Generated (UTC): 2026-10-19T13:08:35.371602+00:00
+Generated (UTC): 2026-10-24T19:28:15.981561+00:00
 
-Tag: `radar-20261019T130835Z-39257531654-1`
+Tag: `radar-20261024T192815Z-40125367311-1`
 
-[Workflow run](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/runs/39257531654)
+[Workflow run](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/runs/40125367311)
 
 ## Run summary
 
-- Eligible news from the last 7 days: **11**.
-- Eligible news from 8–30 days ago: **33**.
+- Eligible news from the last 7 days: **9**.
+- Eligible news from 8–30 days ago: **43**.
 - Upcoming events within 180 days: **6**.
 - Refreshed the reading inbox, README briefing and ChatGPT preparation packet.
 - WHO leads within each news period; events are chronological.
@@ -23,13 +23,24 @@ Completed with **1 source error(s)**; coverage is incomplete.
 
 ## Briefing
 
-# RIDA Radar – briefing (2026-10-19)
+# RIDA Radar – briefing (2026-10-24)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
 News covers the previous 30 days, with the last 7 days first and WHO leading within each period. Upcoming events cover the next 180 days, soonest first. Undated leads remain in data/items.json and are excluded from recent news.
 
 ## Priority updates – last 7 days
+- **2026-10-23** [15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting) (WHO Weekly Epidemiological Record)
+- **2026-10-23** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622) (WHO Disease Outbreak News)
+- **2026-10-23** [Global respiratory virus activity: weekly update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update) (WHO Weekly Epidemiological Record)
+- **2026-10-23** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
+- **2026-10-23** [WHO and ENHYPEN join efforts to inspire young blood donors globally](https://www.who.int/news/item/23-10-2026-who-and-enhypen-join-efforts-to-inspire-young-blood-donors-globally) (WHO Headlines)
+- **2026-10-22** [A comprehensive integrated review of malaria, leishmaniasis, filariasis and dengue control programmes...](https://www.who.int/publications/i/item/9789292800260) (WHO Global Malaria Programme)
+- **2026-10-21** [Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)](https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup) (WHO NTD)
+- **2026-10-21** [New global framework launched to track increasing health risks of extreme heat for pregnant women, newborns and children](https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children) (WHO Headlines)
+- **2026-10-20** [A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...](https://www.who.int/publications/i/item/9789292800277) (WHO NTD)
+
+## Other updates – 8–30 days ago
 - **2026-10-16** [Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#bvd-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-continued-transmission-and-risk-of-further-spread) (WHO Weekly Epidemiological Record)
 - **2026-10-16** [Global respiratory virus activity: weekly update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update) (WHO Weekly Epidemiological Record)
 - **2026-10-16** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
@@ -41,13 +52,12 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-10-12** [IPC Sudan Food Insecurity and Malnutrition Alert](https://www.who.int/news/item/12-10-2026-ipc-sudan-food-insecurity-and-malnutrition-alert) (WHO Headlines)
 - **2026-10-12** [WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours](https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours) (WHO Headlines)
 - **2026-10-12** [WHO welcomes adoption of United Nations political declaration on pandemic prevention, preparedness and response](https://www.who.int/news/item/12-10-2026-who-welcomes-adoption-of-united-nations-political-declaration-on-pandemic-prevention-preparedness-and-response) (WHO Headlines)
-
-## Other updates – 8–30 days ago
 - **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) (WHO Disease Outbreak News)
 - **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026) (WHO Weekly Epidemiological Record)
 - **2026-10-09** [Global dengue update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#dengue-global-dengue-update) (WHO Weekly Epidemiological Record)
 - **2026-10-09** [Highlighted Signals and Events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
 - **2026-10-09** [Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American Conference on Onchocerciasis (IACO) 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-americas-progress-in-eliminating-onchocerciasis-in-the-who-region-of-the-americas-report-from-the-xxxv-inter-american-c) (WHO Weekly Epidemiological Record)
+- **2026-10-09** [Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American...](https://www.who.int/publications/i/item/who-wer10140-297-301) (WHO NTD)
 - **2026-10-09** [WHO urges shift from institutional to community-based mental health care](https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care) (WHO Headlines)
 - **2026-10-08** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619) (WHO Disease Outbreak News)
 - **2026-10-08** [New global roadmap launched to tackle hypertension in pregnancy, a leading cause of maternal and newborn deaths](https://www.who.int/news/item/08-10-2026-new-global-roadmap-launched-to-tackle-hypertension-in-pregnancy-a-leading-cause-of-maternal-and-newborn-deaths) (WHO Headlines)
@@ -61,18 +71,6 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-09-28** [In memoriam: Dr Bernard Philippon (1939–2026)](https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026) (WHO NTD)
 - **2026-09-25** [Cholera Annual Report, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#cholera) (WHO Weekly Epidemiological Record)
 - **2026-09-25** [Control of epidemic meningitis in countries in the African meningitis belt, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#meningitis) (WHO Weekly Epidemiological Record)
-- **2026-09-25** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618) (WHO Disease Outbreak News)
-- **2026-09-25** [Global Respiratory Virus Activity: Weekly Update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#respiratory-virus-activity) (WHO Weekly Epidemiological Record)
-- **2026-09-25** [Highlighted Signals and Events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#signals) (WHO Weekly Epidemiological Record)
-- **2026-09-25** [Human plague, 2019 to 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#plague) (WHO Weekly Epidemiological Record)
-- **2026-09-25** [Recommendations announced for influenza vaccine composition for the 2027 southern hemisphere influenza season](https://www.who.int/news/item/25-09-2026-recommendations-announced-for-influenza-vaccine-composition-for-the-2027-southern-hemisphere-influenza-season) (WHO Headlines)
-- **2026-09-25** [WHO announces expansion of prequalification programme for medical devices](https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices) (WHO Headlines)
-- **2026-09-25** [World leaders renew commitment to protect the world from future pandemics](https://www.who.int/news/item/25-09-2026-world-leaders-renew-commitment-to-protect-the-world-from-future-pandemics) (WHO Headlines)
-- **2026-09-23** [WHO expands safe options for contraception](https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception) (WHO Headlines)
-- **2026-10-07** [Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness](https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/) (Campaign Effectiveness)
-- **2026-10-05** [What Changes When Health Campaigns Stop Working in Silos?](https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/) (Campaign Effectiveness resources)
-- **2026-09-23** [August Campaign Connections](https://mailchi.mp/taskforce/aug-2026-campaign-connections-12780487?e=712034d7c5) (Campaign Effectiveness)
-- **2026-10-09** [DNDi 2026 Projects of the Year recognize teams and partners for their work to advance an open-science antiviral for future coronavirus pandemics and a single-dose treatment for sleeping sickness](https://dndi.org/news/2026/dndi-2026-projects-of-the-year-recognize-contributions-open-science-antiviral-future-coronavirus-pandemics-sleeping-sickness/) (DNDi)
 
 ## Upcoming events – by date
 - **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG)](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) (WHO Global Malaria Programme)

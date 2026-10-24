@@ -1,8 +1,134 @@
 {
-  "generated_utc": "2026-10-19T13:08:35.318684+00:00",
+  "generated_utc": "2026-10-24T19:28:15.902530+00:00",
   "status": "UNVERIFIED_DISCOVERY_LEADS",
   "instructions": "News is limited to the last 30 days; lead with the last 7 days and prioritize WHO global disease news over MalVax within each period. Sort upcoming events by event date. Include malaria subnational tailoring (SNT) and Campaign Effectiveness. Exclude malariasimulation and OpenMalaria tracking. Use en dashes, never em dashes; put the publisher in parentheses after each entry's original link. Use only verifiable details; do not invent dates or content. Read source pages when accessible.",
   "items": [
+    {
+      "title": "15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-23",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+      "source": "WHO Disease Outbreak News",
+      "category": "global-health",
+      "published_date": "2026-10-23",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "Publication date from WHO outbreak listing; claims require review.",
+      "verification": "unverified",
+      "method": "who_outbreaks",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Global respiratory virus activity: weekly update",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-23",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Highlighted signals and events",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#signals-highlighted-signals-and-events",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-23",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "WHO and ENHYPEN join efforts to inspire young blood donors globally",
+      "url": "https://www.who.int/news/item/23-10-2026-who-and-enhypen-join-efforts-to-inspire-young-blood-donors-globally",
+      "source": "WHO Headlines",
+      "category": "global-health",
+      "published_date": "2026-10-23",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "A comprehensive integrated review of malaria, leishmaniasis, filariasis and dengue control programmes...",
+      "url": "https://www.who.int/publications/i/item/9789292800260",
+      "source": "WHO Global Malaria Programme",
+      "category": "malaria",
+      "published_date": "2026-10-22",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)",
+      "url": "https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup",
+      "source": "WHO NTD",
+      "category": "ntds",
+      "published_date": "2026-10-21",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "New global framework launched to track increasing health risks of extreme heat for pregnant women, newborns and children",
+      "url": "https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children",
+      "source": "WHO Headlines",
+      "category": "global-health",
+      "published_date": "2026-10-21",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...",
+      "url": "https://www.who.int/publications/i/item/9789292800277",
+      "source": "WHO NTD",
+      "category": "ntds",
+      "published_date": "2026-10-20",
+      "event_date": "",
+      "first_seen": "2026-10-24",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
     {
       "title": "Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread",
       "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#bvd-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-continued-transmission-and-risk-of-further-spread",
@@ -15,7 +141,7 @@
       "verification": "unverified",
       "method": "who_wer",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Global respiratory virus activity: weekly update",
@@ -29,7 +155,7 @@
       "verification": "unverified",
       "method": "who_wer",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Highlighted signals and events",
@@ -43,7 +169,7 @@
       "verification": "unverified",
       "method": "who_wer",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Recommended composition of influenza virus vaccines for use in the 2027 southern hemisphere influenza season",
@@ -57,7 +183,7 @@
       "verification": "unverified",
       "method": "who_wer",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia",
@@ -71,7 +197,7 @@
       "verification": "unverified",
       "method": "who_outbreaks",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria",
@@ -85,7 +211,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "WHO NTD inclusion criteria review",
@@ -99,7 +225,7 @@
       "verification": "unverified",
       "method": "manual",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "WHO NTD supply chain alignment",
@@ -113,7 +239,7 @@
       "verification": "unverified",
       "method": "manual",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "IPC Sudan Food Insecurity and Malnutrition Alert",
@@ -127,7 +253,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours",
@@ -141,7 +267,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "WHO welcomes adoption of United Nations political declaration on pandemic prevention, preparedness and response",
@@ -155,7 +281,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Pneumonia of undetermined etiology - the Russian Federation",
@@ -224,6 +350,20 @@
       "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
       "verification": "unverified",
       "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_30_days"
+    },
+    {
+      "title": "Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American...",
+      "url": "https://www.who.int/publications/i/item/who-wer10140-297-301",
+      "source": "WHO NTD",
+      "category": "ntds",
+      "published_date": "2026-10-09",
+      "event_date": "",
+      "first_seen": "2026-10-17",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
       "editorial_status": "inbox",
       "recency_group": "last_30_days"
     },
@@ -406,174 +546,6 @@
       "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
       "verification": "unverified",
       "method": "who_wer",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
-      "source": "WHO Disease Outbreak News",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Publication date from WHO outbreak listing; claims require review.",
-      "verification": "unverified",
-      "method": "who_outbreaks",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Global Respiratory Virus Activity: Weekly Update",
-      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#respiratory-virus-activity",
-      "source": "WHO Weekly Epidemiological Record",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
-      "verification": "unverified",
-      "method": "who_wer",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Highlighted Signals and Events",
-      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#signals",
-      "source": "WHO Weekly Epidemiological Record",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
-      "verification": "unverified",
-      "method": "who_wer",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Human plague, 2019 to 2025",
-      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#plague",
-      "source": "WHO Weekly Epidemiological Record",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
-      "verification": "unverified",
-      "method": "who_wer",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Recommendations announced for influenza vaccine composition for the 2027 southern hemisphere influenza season",
-      "url": "https://www.who.int/news/item/25-09-2026-recommendations-announced-for-influenza-vaccine-composition-for-the-2027-southern-hemisphere-influenza-season",
-      "source": "WHO Headlines",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "WHO announces expansion of prequalification programme for medical devices",
-      "url": "https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
-      "source": "WHO Headlines",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "World leaders renew commitment to protect the world from future pandemics",
-      "url": "https://www.who.int/news/item/25-09-2026-world-leaders-renew-commitment-to-protect-the-world-from-future-pandemics",
-      "source": "WHO Headlines",
-      "category": "global-health",
-      "published_date": "2026-09-25",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "WHO expands safe options for contraception",
-      "url": "https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception",
-      "source": "WHO Headlines",
-      "category": "global-health",
-      "published_date": "2026-09-23",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness",
-      "url": "https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/",
-      "source": "Campaign Effectiveness",
-      "category": "campaigns",
-      "published_date": "2026-10-07",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Source feed date: Wed, 07 Oct 2026 18:16:58 +0000; original WHO URL date takes precedence when present; claims require review.",
-      "verification": "unverified",
-      "method": "feed",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "What Changes When Health Campaigns Stop Working in Silos?",
-      "url": "https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/",
-      "source": "Campaign Effectiveness resources",
-      "category": "campaigns",
-      "published_date": "2026-10-05",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Source feed date: Mon, 05 Oct 2026 16:00:13 +0000; original WHO URL date takes precedence when present; claims require review.",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "August Campaign Connections",
-      "url": "https://mailchi.mp/taskforce/aug-2026-campaign-connections-12780487?e=712034d7c5",
-      "source": "Campaign Effectiveness",
-      "category": "campaigns",
-      "published_date": "2026-09-23",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Source feed date: Wed, 23 Sep 2026 15:57:19 +0000; original WHO URL date takes precedence when present; claims require review.",
-      "verification": "unverified",
-      "method": "feed",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "DNDi 2026 Projects of the Year recognize teams and partners for their work to advance an open-science antiviral for future coronavirus pandemics and a single-dose treatment for sleeping sickness",
-      "url": "https://dndi.org/news/2026/dndi-2026-projects-of-the-year-recognize-contributions-open-science-antiviral-future-coronavirus-pandemics-sleeping-sickness/",
-      "source": "DNDi",
-      "category": "ntds",
-      "published_date": "2026-10-09",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "cards",
       "editorial_status": "inbox",
       "recency_group": "last_30_days"
     },
