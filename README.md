@@ -15,7 +15,7 @@ Updated automatically with each successful weekly or manual workflow run. News c
 
 <!-- LATEST-BRIEFING:START -->
 
-### RIDA Radar – briefing (2026-10-24)
+### RIDA Radar – briefing (2026-10-26)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
@@ -31,6 +31,7 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-10-21** [Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)](https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup) (WHO NTD)
 - **2026-10-21** [New global framework launched to track increasing health risks of extreme heat for pregnant women, newborns and children](https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children) (WHO Headlines)
 - **2026-10-20** [A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...](https://www.who.int/publications/i/item/9789292800277) (WHO NTD)
+- **2026-10-22** [Gavi and UNICEF secure lower malaria vaccine price, saving US$ 50 million for childhood immunisation programmes](https://www.gavi.org/news/media-room/gavi-and-unicef-secure-lower-malaria-vaccine-price-saving-us-50-million-childhood) (Gavi, the Vaccine Alliance)
 
 #### Other updates – 8–30 days ago
 - **2026-10-16** [Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#bvd-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-continued-transmission-and-risk-of-further-spread) (WHO Weekly Epidemiological Record)
@@ -61,8 +62,8 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-09-30** [WHO releases new guidance to prevent heat-related illness at mass gatherings](https://www.who.int/news/item/30-09-2026-who-releases-new-guidance-to-prevent-heat-related-illness-at-mass-gatherings) (WHO Headlines)
 - **2026-09-29** [WHO reports latest global trends in cholera, meningitis and plague](https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague) (WHO Headlines)
 - **2026-09-28** [In memoriam: Dr Bernard Philippon (1939–2026)](https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026) (WHO NTD)
-- **2026-09-25** [Cholera Annual Report, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#cholera) (WHO Weekly Epidemiological Record)
-- **2026-09-25** [Control of epidemic meningitis in countries in the African meningitis belt, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38#meningitis) (WHO Weekly Epidemiological Record)
+- **2026-10-07** [Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness](https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/) (Campaign Effectiveness)
+- **2026-10-05** [What Changes When Health Campaigns Stop Working in Silos?](https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/) (Campaign Effectiveness resources)
 
 #### Upcoming events – by date
 - **2026-10-27** [30th meeting of the Malaria Policy Advisory Group (MPAG)](https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)) (WHO Global Malaria Programme)
