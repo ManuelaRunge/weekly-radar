@@ -1,8 +1,92 @@
 {
-  "generated_utc": "2026-10-26T12:57:20.727402+00:00",
+  "generated_utc": "2026-10-30T14:44:03.780776+00:00",
   "status": "UNVERIFIED_DISCOVERY_LEADS",
   "instructions": "News is limited to the last 30 days; lead with the last 7 days and prioritize WHO global disease news over MalVax within each period. Sort upcoming events by event date. Include malaria subnational tailoring (SNT) and Campaign Effectiveness. Exclude malariasimulation and OpenMalaria tracking. Use en dashes, never em dashes; put the publisher in parentheses after each entry's original link. Use only verifiable details; do not invent dates or content. Read source pages when accessible.",
   "items": [
+    {
+      "title": "Global respiratory virus activity: weekly update",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-43#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-30",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Highlighted signals and events",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-43#signals-highlighted-signals-and-events",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-30",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Influenza at the human-animal interface summary and risk assessment, 7 Oct 2026",
+      "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-43#human-animal-interface-influenza-summary-risk-assessment",
+      "source": "WHO Weekly Epidemiological Record",
+      "category": "global-health",
+      "published_date": "2026-10-30",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "Original WER HTML article; publication date from issue metadata. Claims require review.",
+      "verification": "unverified",
+      "method": "who_wer",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Announcement of candidates for the position of WHO Director-General",
+      "url": "https://www.who.int/news/item/29-10-2026-announcement-of-candidates-for-the-position-of-who-director-general",
+      "source": "WHO Headlines",
+      "category": "global-health",
+      "published_date": "2026-10-29",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Statement by WHO Director-General Dr Tedros Adhanom Ghebreyesus concerning the train accident in Spain",
+      "url": "https://www.who.int/news/item/28-10-2026-statement-by-who-director-general-dr-tedros-adhanom-ghebreyesus-concerning-the-train-accident-in-spain",
+      "source": "WHO Headlines",
+      "category": "global-health",
+      "published_date": "2026-10-28",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Types of data requested to inform December 2026 COVID-19 vaccine antigen composition deliberations",
+      "url": "https://www.who.int/news/item/27-10-2026-types-of-data-requested-to-inform-december-2026-covid-19-vaccine-antigen-composition-deliberations",
+      "source": "WHO Headlines",
+      "category": "global-health",
+      "published_date": "2026-10-27",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "",
+      "verification": "unverified",
+      "method": "page",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
     {
       "title": "15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System",
       "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting",
@@ -74,6 +158,48 @@
       "recency_group": "last_7_days"
     },
     {
+      "title": "Advancing Health Campaign Effectiveness: Lessons from the Collaborative Action Strategy Pilot Phase",
+      "url": "https://campaigneffectiveness.org/advancing-health-campaign-effectiveness-lessons-from-the-collaborative-action-strategy-pilot-phase/",
+      "source": "Campaign Effectiveness",
+      "category": "campaigns",
+      "published_date": "2026-10-27",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "Source feed date: Tue, 27 Oct 2026 21:38:35 +0000; original WHO URL date takes precedence when present; claims require review. ",
+      "verification": "unverified",
+      "method": "feed",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "DNDi welcomes GHIT Fund’s support for innovative approaches to improve success in Chagas disease drug discovery with Nagasaki University, the University of Dundee, and Eisai",
+      "url": "https://dndi.org/press-releases/2026/ghit-funds-support-innovative-approaches-improve-success-chagas-disease-drug-discovery-with-nagasaki-university-university-dundee-eisai/",
+      "source": "DNDi",
+      "category": "ntds",
+      "published_date": "2026-10-29",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "",
+      "verification": "unverified",
+      "method": "cards",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
+      "title": "Kenya becomes first African country to join the Dengue Alliance",
+      "url": "https://dndi.org/press-releases/2026/kenya-becomes-first-african-country-to-join-the-dengue-alliance/",
+      "source": "DNDi",
+      "category": "ntds",
+      "published_date": "2026-10-27",
+      "event_date": "",
+      "first_seen": "2026-10-30",
+      "notes": "",
+      "verification": "unverified",
+      "method": "cards",
+      "editorial_status": "inbox",
+      "recency_group": "last_7_days"
+    },
+    {
       "title": "A comprehensive integrated review of malaria, leishmaniasis, filariasis and dengue control programmes...",
       "url": "https://www.who.int/publications/i/item/9789292800260",
       "source": "WHO Global Malaria Programme",
@@ -85,7 +211,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)",
@@ -99,7 +225,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "New global framework launched to track increasing health risks of extreme heat for pregnant women, newborns and children",
@@ -113,7 +239,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...",
@@ -127,21 +253,7 @@
       "verification": "unverified",
       "method": "page",
       "editorial_status": "inbox",
-      "recency_group": "last_7_days"
-    },
-    {
-      "title": "Gavi and UNICEF secure lower malaria vaccine price, saving US$ 50 million for childhood immunisation programmes",
-      "url": "https://www.gavi.org/news/media-room/gavi-and-unicef-secure-lower-malaria-vaccine-price-saving-us-50-million-childhood",
-      "source": "Gavi, the Vaccine Alliance",
-      "category": "health-financing",
-      "published_date": "2026-10-22",
-      "event_date": "",
-      "first_seen": "2026-10-26",
-      "notes": "An agreement announced today will cut the price of the RTS,S/AS01 malaria vaccine by approximately 40 per cent. The deal, executed by UNICEF and financially backed by Gavi, the Vaccine Alliance, is expected to generate around US$ 50 million in…",
-      "verification": "unverified",
-      "method": "cards",
-      "editorial_status": "inbox",
-      "recency_group": "last_7_days"
+      "recency_group": "last_30_days"
     },
     {
       "title": "Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread",
@@ -506,90 +618,6 @@
       "method": "page",
       "editorial_status": "inbox",
       "recency_group": "last_30_days"
-    },
-    {
-      "title": "WHO reports latest global trends in cholera, meningitis and plague",
-      "url": "https://www.who.int/news/item/29-09-2026-who-reports-latest-global-trends-in-cholera--meningitis-and-plague",
-      "source": "WHO Headlines",
-      "category": "global-health",
-      "published_date": "2026-09-29",
-      "event_date": "",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "In memoriam: Dr Bernard Philippon (1939–2026)",
-      "url": "https://www.who.int/news/item/28-09-2026-in-memoriam-dr-bernard-philippon-1939-2026",
-      "source": "WHO NTD",
-      "category": "ntds",
-      "published_date": "2026-09-28",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "Beyond Coverage: Introducing the Framework for Measuring Health Campaign Effectiveness",
-      "url": "https://campaigneffectiveness.org/beyond-coverage-introducing-the-framework-for-measuring-health-campaign-effectiveness-2/",
-      "source": "Campaign Effectiveness",
-      "category": "campaigns",
-      "published_date": "2026-10-07",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Source feed date: Wed, 07 Oct 2026 18:16:58 +0000; original WHO URL date takes precedence when present; claims require review. ",
-      "verification": "unverified",
-      "method": "feed",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "What Changes When Health Campaigns Stop Working in Silos?",
-      "url": "https://campaigneffectiveness.org/what-changes-when-health-campaigns-stop-working-in-silos/",
-      "source": "Campaign Effectiveness resources",
-      "category": "campaigns",
-      "published_date": "2026-10-05",
-      "event_date": "",
-      "first_seen": "2026-10-17",
-      "notes": "Source feed date: Mon, 05 Oct 2026 16:00:13 +0000; original WHO URL date takes precedence when present; claims require review. ",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "last_30_days"
-    },
-    {
-      "title": "30th meeting of the Malaria Policy Advisory Group (MPAG)",
-      "url": "https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/30th-meeting-of-the-malaria-policy-advisory-group-(mpag)",
-      "source": "WHO Global Malaria Programme",
-      "category": "malaria",
-      "published_date": "",
-      "event_date": "2026-10-27",
-      "first_seen": "2026-10-17",
-      "notes": "",
-      "verification": "unverified",
-      "method": "page",
-      "editorial_status": "inbox",
-      "recency_group": "event"
-    },
-    {
-      "title": "Francophone Webinar Series: The Role of Community Health Clubs (Laafi Ton) in the Fight Against Malaria in the Village of Beun, Léo Health District, Burkina Faso",
-      "url": "https://www.ammnet.org/seminars/francophone-webinar-series-the-role-of-community-health-clubs-laafi-ton-in-the-fight-against-malaria-in-the-village-of-beun-leo-health-district-burkina-faso",
-      "source": "AMMnet Events",
-      "category": "events",
-      "published_date": "",
-      "event_date": "2026-10-28",
-      "first_seen": "2026-10-19",
-      "notes": "",
-      "verification": "unverified",
-      "method": "cards",
-      "editorial_status": "inbox",
-      "recency_group": "event"
     },
     {
       "title": "From Elimination to Certification: Cabo Verde's Journey to a Malaria-Free Country",
