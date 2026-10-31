@@ -1,13 +1,8 @@
-# RIDA Radar
-
-[![Radar workflow](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/workflows/radar.yml/badge.svg)](https://github.com/runge-infectious-disease-analytics/rida-radar/actions/workflows/radar.yml)
-[![Latest release](https://img.shields.io/github/v/release/runge-infectious-disease-analytics/rida-radar?label=Latest%20briefing)](https://github.com/runge-infectious-disease-analytics/rida-radar/releases/latest)
-![Public health](https://img.shields.io/badge/Focus-public%20health-teal)
-![Weekly](https://img.shields.io/badge/Updates-weekly-blue)
+# Weekly News Radar
 
 A weekly reading inbox for global disease news, malaria subnational tailoring (SNT), campaign effectiveness, policy, resources and upcoming events. Read the latest output below or browse dated releases to revisit an earlier briefing.
 
-[Briefing file](output/latest.md) · [Latest release and downloads](https://github.com/runge-infectious-disease-analytics/rida-radar/releases/latest) · [All briefings and tags](https://github.com/runge-infectious-disease-analytics/rida-radar/releases) · [Run notes](output/release_notes.md)
+[Briefing file](output/latest.md) · [Latest release and downloads](https://github.com/ManuelaRunge/rida-radar/releases/latest) · [All briefings and tags](https://github.com/ManuelaRunge/weekly-radar/releases) · [Run notes](output/release_notes.md)
 
 ## Latest briefing
 
