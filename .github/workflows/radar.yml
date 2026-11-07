@@ -30,8 +30,8 @@ jobs:
       - run: python src/publish.py
       - name: Commit briefing, README and run notes
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'OpenAI Codex'
+          git config user.email 'codex@openai.com'
           git add README.md data output
           if ! git diff --cached --quiet; then
             git commit -m "Update radar briefing ${RADAR_TAG}"
