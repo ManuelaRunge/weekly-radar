@@ -1,0 +1,98 @@
+[
+  {
+    "id": "r-packages-2026",
+    "title": "Five R packages I kept coming back to in 2026",
+    "why_it_fits": "Applied R programming for epidemiological analysis and simulation workflows.",
+    "core_angle": "Five packages chosen from actual repeated use, each paired with a concrete problem solved rather than a popularity ranking.",
+    "source_material": "Own reproducible R examples; confirm actual top five before writing.",
+    "format": "Personal LinkedIn carousel; optional RIDA code note",
+    "effort": "medium",
+    "best_channel": "Personal profile",
+    "priority": 3,
+    "status": "backlog"
+  },
+  {
+    "id": "who-snt-process",
+    "title": "What does the WHO subnational tailoring approach for malaria involve?",
+    "why_it_fits": "Experience with malaria intervention modelling and national programme planning.",
+    "core_angle": "A practical walk-through of evidence inputs, stratification, intervention selection and resource allocation, distinguishing WHO recommendations from local examples.",
+    "source_material": "WHO malaria SNT reference manual; verified published country applications; synthetic district example.",
+    "format": "RIDA technical note or process carousel",
+    "effort": "deep",
+    "best_channel": "RIDA",
+    "priority": 3,
+    "status": "backlog"
+  },
+  {
+    "id": "stratification-targeting-tailoring",
+    "title": "Stratification, targeting and tailoring: where do they overlap?",
+    "why_it_fits": "Direct methodological experience in malaria subnational tailoring.",
+    "core_angle": "Compare terms as used in WHO guidance and country applications; relate risk classification to intervention allocation without reducing the topic to terminology alone.",
+    "source_material": "WHO SNT guidance; original country programme analyses; hypothetical examples clearly labelled.",
+    "format": "RIDA illustrated explainer or long-form website article",
+    "effort": "deep",
+    "best_channel": "RIDA",
+    "priority": 3,
+    "status": "backlog"
+  },
+  {
+    "id": "turtle-logo",
+    "title": "Why a turtle? The story behind RIDA",
+    "why_it_fits": "Introduces the independent platform and the person behind it.",
+    "core_angle": "Explain the actual intended meaning of the logo and the development of the visual identity, without inventing symbolism.",
+    "source_material": "Own logo iterations, original branding notes and personal rationale.",
+    "format": "First-person LinkedIn story plus distinct RIDA platform introduction",
+    "effort": "quick",
+    "best_channel": "Both",
+    "priority": 2,
+    "status": "backlog"
+  },
+  {
+    "id": "professional-lessons",
+    "title": "Professional lessons from research and technical consulting",
+    "why_it_fits": "Draws on research and analytical work across organisational settings.",
+    "core_angle": "A generalisable lesson about quality, communication, methods or collaboration, illustrated only with public, synthetic or appropriately anonymised examples.",
+    "source_material": "Own reflections; exclude client, colleague and employer-specific incidents or confidential facts.",
+    "format": "Personal LinkedIn post or reflective blog article",
+    "effort": "medium",
+    "best_channel": "Personal profile",
+    "priority": 2,
+    "status": "backlog"
+  },
+  {
+    "id": "website-introduction",
+    "title": "Introducing my new research and writing website",
+    "why_it_fits": "Provides context for a growing independent professional identity.",
+    "core_angle": "Share what readers will find, anchored in actual published resources rather than future promises.",
+    "source_material": "Live website, published methods resources, writing and portfolio pages.",
+    "format": "Personal LinkedIn introduction after the website has substantive content",
+    "effort": "quick",
+    "best_channel": "Personal profile",
+    "priority": 1,
+    "status": "backlog"
+  },
+  {
+    "id": "model-validation",
+    "title": "When is an infectious disease model fit for purpose?",
+    "why_it_fits": "Experience comparing and harmonising mathematical and simulation models.",
+    "core_angle": "Calibration, independent evidence, uncertainty, multiple outcomes and domain of applicability; validation is not proof of correctness.",
+    "source_material": "Own model-validation principles; methodological papers; synthetic modelling comparisons.",
+    "format": "RIDA methods checklist and blog article",
+    "effort": "deep",
+    "best_channel": "RIDA",
+    "priority": 3,
+    "status": "backlog"
+  },
+  {
+    "id": "multimalmodpy-workflow",
+    "title": "What I learned building reproducible multi-model workflows",
+    "why_it_fits": "Public software development and computational epidemiology experience.",
+    "core_angle": "Traceability, documented assumptions, input validation, tests and fair model comparisons.",
+    "source_material": "Public MultiMalModPy repository and documentation; synthetic reproducible examples.",
+    "format": "RIDA technical note plus adapted personal reflection",
+    "effort": "medium",
+    "best_channel": "Both",
+    "priority": 2,
+    "status": "backlog"
+  }
+]

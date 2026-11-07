@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "generated_date": "2026-11-07",
+  "status": "automated_source_discovery_not_independently_verified",
+  "notice": "Source-linked leads only. Verify original publication dates, claims and events before relying on them. Inclusion does not imply endorsement.",
+  "sections": [
+    {
+      "id": "this_week",
+      "title": "This week",
+      "description": "Source items published within the last seven days",
+      "items": [
+        {
+          "title": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....",
+          "url": "https://www.who.int/publications/i/item/B09964",
+          "date": "2026-11-04",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Public notice and comments on the proposed members of the Guideline Development Group for the WHO guideline for alleviating morbidity due to filarial lymphoedema",
+          "url": "https://www.who.int/news-room/articles-detail/public-notice-and-comments-on-the-proposed-members-of-the-guideline-development-group-for-the-who-guideline-for-alleviating-morbidity-due-to-filarial-lymphoedema",
+          "date": "2026-11-02",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Global leishmaniasis surveillance updates 2025",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025",
+          "date": "2026-11-06",
+          "publisher": "WHO Weekly Epidemiological Record",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Progress against neglected tropical diseases requires sustained action",
+          "url": "https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action",
+          "date": "2026-11-04",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Two new candidate vaccines to join Ebola trial as treatment research advances",
+          "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+          "date": "2026-11-04",
+          "publisher": "WHO Headlines",
+          "topic": "Vaccines & immunisation"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+          "date": "2026-11-06",
+          "publisher": "WHO Disease Outbreak News",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "Multi-country outbreak of cholera",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#cholera-multi-country-outbreak",
+          "date": "2026-11-06",
+          "publisher": "WHO Weekly Epidemiological Record",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "Yellow fever - WHO African Region",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+          "date": "2026-11-06",
+          "publisher": "WHO Disease Outbreak News",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "Extreme heat and climate-sensitive infectious diseases",
+          "url": "https://dndi.org/publications/2026/extreme-heat-and-climate-sensitive-infectious-diseases/",
+          "date": "2026-11-06",
+          "publisher": "DNDi",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Project to develop dengue treatment pre-selected by the Global Coalition for Local and Regional Production, Innovation, and Equitable Access",
+          "url": "https://dndi.org/news/2026/project-to-develop-dengue-treatment-pre-selected-by-the-global-coalition-for-local-and-regional-production-innovation-and-equitable-access/",
+          "date": "2026-11-02",
+          "publisher": "DNDi",
+          "topic": "Neglected tropical diseases"
+        }
+      ]
+    },
+    {
+      "id": "previous_week",
+      "title": "Also worth reading",
+      "description": "Source items dated 8–30 days ago",
+      "items": [
+        {
+          "title": "Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American...",
+          "url": "https://www.who.int/publications/i/item/who-wer10140-297-301",
+          "date": "2026-10-09",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting",
+          "date": "2026-10-23",
+          "publisher": "WHO Weekly Epidemiological Record",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "A comprehensive integrated review of malaria, leishmaniasis, filariasis and dengue control programmes...",
+          "url": "https://www.who.int/publications/i/item/9789292800260",
+          "date": "2026-10-22",
+          "publisher": "WHO Global Malaria Programme",
+          "topic": "Malaria & subnational planning"
+        },
+        {
+          "title": "Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)",
+          "url": "https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup",
+          "date": "2026-10-21",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria",
+          "url": "https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria",
+          "date": "2026-10-15",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Elimination of human onchocerciasis: progress report, 2025–2026",
+          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026",
+          "date": "2026-10-09",
+          "publisher": "WHO Weekly Epidemiological Record",
+          "topic": "Neglected tropical diseases"
+        }
+      ]
+    },
+    {
+      "id": "upcoming",
+      "title": "Upcoming events",
+      "description": "Events with recorded dates in the next 180 days",
+      "items": [
+        {
+          "title": "Hackathon: Working with an AI Coding Agent: Epidemic Forecasting from Partial Outbreak Data",
+          "url": "https://www.ammnet.org/seminars/hackathon-working-with-an-ai-coding-agent-epidemic-forecasting-from-partial-outbreak-data",
+          "date": "2026-11-10",
+          "publisher": "AMMnet Events",
+          "topic": "Modelling & methods"
+        },
+        {
+          "title": "Strengthening Blackfly Surveillance for the Onchocerciasis Endgame",
+          "url": "https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame",
+          "date": "2026-11-30",
+          "publisher": "WHO NTD",
+          "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "MalVax 2027",
+          "url": "https://www.malvax.org/",
+          "date": "2027-01-31",
+          "publisher": "MalVax",
+          "topic": "Malaria & subnational planning"
+        }
+      ]
+    }
+  ]
+}

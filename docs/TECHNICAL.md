@@ -32,6 +32,8 @@ python -m pip install -r requirements.txt
 python src/collect.py
 python src/brief.py
 python src/newsletter_ai.py --mode prepare
+python src/public_feed.py
+python src/opportunities.py
 python src/publish.py
 ```
 
@@ -45,17 +47,20 @@ The same rules apply to the newsletter packet (`python src/newsletter_ai.py --mo
 | `config/manual_links.csv` | Add explicit URLs, dates and notes, including public LinkedIn permalinks. |
 | `data/items.json` | Persistent collection of discovered candidates. |
 | `data/errors.json` | Source failures from the latest collection run. |
-| `output/latest.md` | Generated reading inbox and manual publishing shortlist. |
+| `output/latest.md` | Full dated reading inbox. |
+| `output/public.json` | Smaller public link index with dates, publishers and topics; no discovery notes or drafts. |
+| `config/evergreen_backlog.json` | Supplied, editable content ideas with priority and progress status. |
+| `output/opportunity_scan.json` | Timely source-linked prompts and a rotating evergreen planning list. |
 
 ## Weekly automation
 
-The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can also be started manually on the default branch. It tests the code, collects sources, builds the briefing and newsletter packet, embeds the full briefing in the README, and prepares run notes. It then commits the generated files and publishes a GitHub Release. Enable Actions and allow repository contents write access for the commit and release steps. Keep the repository private if the inbox should remain private.
+The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can also be started manually on the default branch. It tests the code, collects sources, and builds the briefing, newsletter packet, public link index and editorial opportunities. It embeds selected links and a collapsed full briefing in the README, then prepares run notes. It commits the generated files as OpenAI Codex and publishes a GitHub Release. Enable Actions and allow repository contents write access for the commit and release steps. This repository is public; collection notes, backlog entries and planning packets must contain only information suitable for public access.
 
 ### Releases and tags
 
 Every successful scheduled or manual workflow attempt publishes a release with a unique tag such as `radar-20261017T120000Z-123456789-1`: UTC timestamp, GitHub run ID and attempt number. Reruns get a distinct attempt number, including when the source content is unchanged. The tag targets the commit containing that run's README, data and outputs. A failed generation, test or push does not proceed to publication.
 
-The release body contains the run summary, source errors and the full `output/latest.md` briefing. `latest.md` and `release_notes.md` are also attached as downloadable Markdown assets. The release is marked Latest. The workflow uses its built-in `GITHUB_TOKEN` with `contents: write`; no additional release token is needed. Branch or tag protection rules must permit these workflow writes. Releases inherit the repository's visibility.
+The release body contains the run summary, source errors and the full `output/latest.md` briefing. `latest.md`, `release_notes.md`, `public.json` and `opportunity_scan.json` are also attached as downloads. The release is marked Latest. The workflow uses its built-in `GITHUB_TOKEN` with `contents: write`; no additional release token is needed. Branch or tag protection rules must permit these workflow writes. Releases inherit the repository's visibility.
 
 Local `python src/publish.py` refreshes the README and prepares `output/release_notes.md` without committing, tagging or contacting GitHub. The workflow handles remote publication. `RADAR_TAG` is optional locally; Actions supplies it automatically. Failed source requests are recorded as incomplete coverage in the notes while the run continues.
 

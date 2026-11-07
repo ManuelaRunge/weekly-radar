@@ -1,0 +1,168 @@
+{
+  "generated_date": "2026-11-07",
+  "notice": "Planning leads only. Automated titles and suggested questions are not summaries of original findings. Read and verify sources; human review is required before any publication.",
+  "lanes": {
+    "timely": [
+      {
+        "title_or_hook": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....",
+        "lane": "timely",
+        "source_date": "2026-11-04",
+        "source_url": "https://www.who.int/publications/i/item/B09964",
+        "publisher": "WHO NTD",
+        "why_it_fits": "Connects disease control evidence with implementation and policy.",
+        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
+        "recommended_format": "Short source-linked commentary",
+        "estimated_effort": "medium",
+        "best_channel": "RIDA",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Public notice and comments on the proposed members of the Guideline Development Group for the WHO guideline for alleviating morbidity due to filarial lymphoedema",
+        "lane": "timely",
+        "source_date": "2026-11-02",
+        "source_url": "https://www.who.int/news-room/articles-detail/public-notice-and-comments-on-the-proposed-members-of-the-guideline-development-group-for-the-who-guideline-for-alleviating-morbidity-due-to-filarial-lymphoedema",
+        "publisher": "WHO NTD",
+        "why_it_fits": "Connects disease control evidence with implementation and policy.",
+        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
+        "recommended_format": "Short source-linked commentary",
+        "estimated_effort": "medium",
+        "best_channel": "RIDA",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Global leishmaniasis surveillance updates 2025",
+        "lane": "timely",
+        "source_date": "2026-11-06",
+        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025",
+        "publisher": "WHO Weekly Epidemiological Record",
+        "why_it_fits": "Connects disease control evidence with implementation and policy.",
+        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
+        "recommended_format": "Short source-linked commentary",
+        "estimated_effort": "medium",
+        "best_channel": "RIDA",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Progress against neglected tropical diseases requires sustained action",
+        "lane": "timely",
+        "source_date": "2026-11-04",
+        "source_url": "https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action",
+        "publisher": "WHO NTD",
+        "why_it_fits": "Connects disease control evidence with implementation and policy.",
+        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
+        "recommended_format": "Short source-linked commentary",
+        "estimated_effort": "medium",
+        "best_channel": "RIDA",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Two new candidate vaccines to join Ebola trial as treatment research advances",
+        "lane": "timely",
+        "source_date": "2026-11-04",
+        "source_url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+        "publisher": "WHO Headlines",
+        "why_it_fits": "Research interests in vaccines, malaria and intervention modelling.",
+        "core_angle_for_review": "What evidence is needed to translate vaccine research or policy into delivery decisions?",
+        "recommended_format": "Brief evidence-focused commentary",
+        "estimated_effort": "quick",
+        "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
+        "lane": "timely",
+        "source_date": "2026-11-06",
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+        "publisher": "WHO Disease Outbreak News",
+        "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
+        "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
+        "recommended_format": "Source-linked research commentary",
+        "estimated_effort": "quick",
+        "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Multi-country outbreak of cholera",
+        "lane": "timely",
+        "source_date": "2026-11-06",
+        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#cholera-multi-country-outbreak",
+        "publisher": "WHO Weekly Epidemiological Record",
+        "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
+        "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
+        "recommended_format": "Source-linked research commentary",
+        "estimated_effort": "quick",
+        "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      }
+    ],
+    "evergreen": [
+      {
+        "id": "r-packages-2026",
+        "title_or_hook": "Five R packages I kept coming back to in 2026",
+        "lane": "evergreen",
+        "why_it_fits": "Applied R programming for epidemiological analysis and simulation workflows.",
+        "core_angle_for_review": "Five packages chosen from actual repeated use, each paired with a concrete problem solved rather than a popularity ranking.",
+        "recommended_format": "Personal LinkedIn carousel; optional RIDA code note",
+        "estimated_effort": "medium",
+        "best_channel": "Personal profile",
+        "source_material": "Own reproducible R examples; confirm actual top five before writing.",
+        "status": "backlog"
+      },
+      {
+        "id": "stratification-targeting-tailoring",
+        "title_or_hook": "Stratification, targeting and tailoring: where do they overlap?",
+        "lane": "evergreen",
+        "why_it_fits": "Direct methodological experience in malaria subnational tailoring.",
+        "core_angle_for_review": "Compare terms as used in WHO guidance and country applications; relate risk classification to intervention allocation without reducing the topic to terminology alone.",
+        "recommended_format": "RIDA illustrated explainer or long-form website article",
+        "estimated_effort": "deep",
+        "best_channel": "RIDA",
+        "source_material": "WHO SNT guidance; original country programme analyses; hypothetical examples clearly labelled.",
+        "status": "backlog"
+      },
+      {
+        "id": "who-snt-process",
+        "title_or_hook": "What does the WHO subnational tailoring approach for malaria involve?",
+        "lane": "evergreen",
+        "why_it_fits": "Experience with malaria intervention modelling and national programme planning.",
+        "core_angle_for_review": "A practical walk-through of evidence inputs, stratification, intervention selection and resource allocation, distinguishing WHO recommendations from local examples.",
+        "recommended_format": "RIDA technical note or process carousel",
+        "estimated_effort": "deep",
+        "best_channel": "RIDA",
+        "source_material": "WHO malaria SNT reference manual; verified published country applications; synthetic district example.",
+        "status": "backlog"
+      },
+      {
+        "id": "model-validation",
+        "title_or_hook": "When is an infectious disease model fit for purpose?",
+        "lane": "evergreen",
+        "why_it_fits": "Experience comparing and harmonising mathematical and simulation models.",
+        "core_angle_for_review": "Calibration, independent evidence, uncertainty, multiple outcomes and domain of applicability; validation is not proof of correctness.",
+        "recommended_format": "RIDA methods checklist and blog article",
+        "estimated_effort": "deep",
+        "best_channel": "RIDA",
+        "source_material": "Own model-validation principles; methodological papers; synthetic modelling comparisons.",
+        "status": "backlog"
+      },
+      {
+        "id": "multimalmodpy-workflow",
+        "title_or_hook": "What I learned building reproducible multi-model workflows",
+        "lane": "evergreen",
+        "why_it_fits": "Public software development and computational epidemiology experience.",
+        "core_angle_for_review": "Traceability, documented assumptions, input validation, tests and fair model comparisons.",
+        "recommended_format": "RIDA technical note plus adapted personal reflection",
+        "estimated_effort": "medium",
+        "best_channel": "Both",
+        "source_material": "Public MultiMalModPy repository and documentation; synthetic reproducible examples.",
+        "status": "backlog"
+      }
+    ]
+  }
+}
