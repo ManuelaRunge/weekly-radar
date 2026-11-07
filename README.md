@@ -1,6 +1,6 @@
-# Weekly News Radar
+# Weekly Personalised Global Health News Radar
 
-A weekly reading inbox for global disease news, malaria subnational tailoring (SNT), campaign effectiveness, policy, resources and upcoming events. Read the latest output below or browse dated releases to revisit an earlier briefing.
+A weekly reading inbox for global disease news, malaria, campaign effectiveness, policy, resources and upcoming events. Read the latest output below or browse dated releases to revisit an earlier briefing.
 
 [Briefing file](output/latest.md) · [Latest release and downloads](https://github.com/ManuelaRunge/rida-radar/releases/latest) · [All briefings and tags](https://github.com/ManuelaRunge/weekly-radar/releases) · [Run notes](output/release_notes.md)
 
@@ -10,7 +10,7 @@ Updated automatically with each successful weekly or manual workflow run. News c
 
 <!-- LATEST-BRIEFING:START -->
 
-### RIDA Radar – briefing (2026-11-02)
+### Radar – briefing (2026-11-02)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
