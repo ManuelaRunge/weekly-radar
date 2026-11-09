@@ -10,13 +10,13 @@ Updated automatically with each successful weekly or manual workflow run. The se
 
 <!-- LATEST-BRIEFING:START -->
 
-## Selected links (2026-11-07)
+## Selected links (2026-11-09)
 
 > Automated source-linked leads, not independently verified findings.
 
 ### This week
 
-- **2026-11-04** [Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....](https://www.who.int/publications/i/item/B09964) (WHO NTD)
+- **2026-11-04** [Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation](https://www.who.int/publications/i/item/9789240126220) (WHO NTD)
 - **2026-11-02** [Public notice and comments on the proposed members of the Guideline Development Group for the WHO guideline for alleviating morbidity due to filarial lymphoedema](https://www.who.int/news-room/articles-detail/public-notice-and-comments-on-the-proposed-members-of-the-guideline-development-group-for-the-who-guideline-for-alleviating-morbidity-due-to-filarial-lymphoedema) (WHO NTD)
 - **2026-11-06** [Global leishmaniasis surveillance updates 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025) (WHO Weekly Epidemiological Record)
 - **2026-11-04** [Progress against neglected tropical diseases requires sustained action](https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action) (WHO NTD)
@@ -29,12 +29,12 @@ Updated automatically with each successful weekly or manual workflow run. The se
 
 ### Also worth reading
 
-- **2026-10-09** [Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American...](https://www.who.int/publications/i/item/who-wer10140-297-301) (WHO NTD)
 - **2026-10-23** [15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting) (WHO Weekly Epidemiological Record)
 - **2026-10-22** [A comprehensive integrated review of malaria, leishmaniasis, filariasis and dengue control programmes...](https://www.who.int/publications/i/item/9789292800260) (WHO Global Malaria Programme)
 - **2026-10-21** [Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)](https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup) (WHO NTD)
 - **2026-10-15** [Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria](https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO NTD)
-- **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026) (WHO Weekly Epidemiological Record)
+- **2026-10-20** [A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...](https://www.who.int/publications/i/item/9789292800277) (WHO NTD)
+- **2026-10-27** [Types of data requested to inform December 2026 COVID-19 vaccine antigen composition deliberations](https://www.who.int/news/item/27-10-2026-types-of-data-requested-to-inform-december-2026-covid-19-vaccine-antigen-composition-deliberations) (WHO Headlines)
 
 ### Upcoming events
 
@@ -45,19 +45,20 @@ Updated automatically with each successful weekly or manual workflow run. The se
 <details>
 <summary>Full source-linked briefing</summary>
 
-### RIDA Radar – briefing (2026-11-07)
+### RIDA Radar – briefing (2026-11-09)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
 News covers the previous 30 days, with the last 7 days first and WHO leading within each period. Upcoming events cover the next 180 days, soonest first. Undated leads remain in data/items.json and are excluded from recent news.
 
 #### Priority updates – last 7 days
+- **2026-11-08** [WHO invites feedback on a draft target product profile for wearable devices to measure physical activity and sedentary behaviour in population health monitoring systems](https://www.who.int/news/item/08-11-2026-who-invites-feedback-on-a-draft-target-product-profile-for-wearable-devices-to-measure-physical-activity-and-sedentary-behaviour-in-population-health-monitoring-systems) (WHO Headlines)
 - **2026-11-06** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625) (WHO Disease Outbreak News)
 - **2026-11-06** [Global leishmaniasis surveillance updates 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025) (WHO Weekly Epidemiological Record)
 - **2026-11-06** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
 - **2026-11-06** [Multi-country outbreak of cholera](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#cholera-multi-country-outbreak) (WHO Weekly Epidemiological Record)
 - **2026-11-06** [Yellow fever - WHO African Region](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624) (WHO Disease Outbreak News)
-- **2026-11-04** [Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....](https://www.who.int/publications/i/item/B09964) (WHO NTD)
+- **2026-11-04** [Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation](https://www.who.int/publications/i/item/9789240126220) (WHO NTD)
 - **2026-11-04** [One in four adolescents worldwide reported no active days in the previous week](https://www.who.int/news/item/04-11-2026-one-in-four-adolescents-worldwide-reported-no-active-days-in-the-previous-week) (WHO Headlines)
 - **2026-11-04** [Progress against neglected tropical diseases requires sustained action](https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action) (WHO NTD)
 - **2026-11-04** [Six climate and health actions could save 1.6 million lives and deliver trillions in benefits each year](https://www.who.int/news/item/04-11-2026-six-climate-and-health-actions-could-save-1.6-million-lives-and-deliver-trillions-in-benefits-each-year) (WHO Headlines)
@@ -96,8 +97,8 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-10-12** [WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours](https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours) (WHO Headlines)
 - **2026-10-12** [WHO welcomes adoption of United Nations political declaration on pandemic prevention, preparedness and response](https://www.who.int/news/item/12-10-2026-who-welcomes-adoption-of-united-nations-political-declaration-on-pandemic-prevention-preparedness-and-response) (WHO Headlines)
 - **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) (WHO Disease Outbreak News)
-- **2026-10-09** [Elimination of human onchocerciasis: progress report, 2025–2026](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026) (WHO Weekly Epidemiological Record)
-- **2026-10-09** [Global dengue update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#dengue-global-dengue-update) (WHO Weekly Epidemiological Record)
+- **2026-10-27** [Advancing Health Campaign Effectiveness: Lessons from the Collaborative Action Strategy Pilot Phase](https://campaigneffectiveness.org/advancing-health-campaign-effectiveness-lessons-from-the-collaborative-action-strategy-pilot-phase/) (Campaign Effectiveness)
+- **2026-10-29** [DNDi welcomes GHIT Fund’s support for innovative approaches to improve success in Chagas disease drug discovery with Nagasaki University, the University of Dundee, and Eisai](https://dndi.org/press-releases/2026/ghit-funds-support-innovative-approaches-improve-success-chagas-disease-drug-discovery-with-nagasaki-university-university-dundee-eisai/) (DNDi)
 
 #### Upcoming events – by date
 - **2026-11-10** [Hackathon: Working with an AI Coding Agent: Epidemic Forecasting from Partial Outbreak Data](https://www.ammnet.org/seminars/hackathon-working-with-an-ai-coding-agent-epidemic-forecasting-from-partial-outbreak-data) (AMMnet Events)

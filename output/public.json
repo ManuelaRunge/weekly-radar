@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_date": "2026-11-07",
+  "generated_date": "2026-11-09",
   "status": "automated_source_discovery_not_independently_verified",
   "notice": "Source-linked leads only. Verify original publication dates, claims and events before relying on them. Inclusion does not imply endorsement.",
   "sections": [
@@ -10,8 +10,8 @@
       "description": "Source items published within the last seven days",
       "items": [
         {
-          "title": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....",
-          "url": "https://www.who.int/publications/i/item/B09964",
+          "title": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation",
+          "url": "https://www.who.int/publications/i/item/9789240126220",
           "date": "2026-11-04",
           "publisher": "WHO NTD",
           "topic": "Neglected tropical diseases"
@@ -87,13 +87,6 @@
       "description": "Source items dated 8–30 days ago",
       "items": [
         {
-          "title": "Progress in eliminating onchocerciasis in the WHO Region of the Americas: report from the XXXV Inter-American...",
-          "url": "https://www.who.int/publications/i/item/who-wer10140-297-301",
-          "date": "2026-10-09",
-          "publisher": "WHO NTD",
-          "topic": "Neglected tropical diseases"
-        },
-        {
           "title": "15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System",
           "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting",
           "date": "2026-10-23",
@@ -122,11 +115,18 @@
           "topic": "Neglected tropical diseases"
         },
         {
-          "title": "Elimination of human onchocerciasis: progress report, 2025–2026",
-          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-40#onchocerciasis-elimination-of-human-onchocerciasis-progress-report-2025-2026",
-          "date": "2026-10-09",
-          "publisher": "WHO Weekly Epidemiological Record",
+          "title": "A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...",
+          "url": "https://www.who.int/publications/i/item/9789292800277",
+          "date": "2026-10-20",
+          "publisher": "WHO NTD",
           "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Types of data requested to inform December 2026 COVID-19 vaccine antigen composition deliberations",
+          "url": "https://www.who.int/news/item/27-10-2026-types-of-data-requested-to-inform-december-2026-covid-19-vaccine-antigen-composition-deliberations",
+          "date": "2026-10-27",
+          "publisher": "WHO Headlines",
+          "topic": "Vaccines & immunisation"
         }
       ]
     },

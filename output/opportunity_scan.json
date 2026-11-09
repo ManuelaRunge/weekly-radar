@@ -1,13 +1,13 @@
 {
-  "generated_date": "2026-11-07",
+  "generated_date": "2026-11-09",
   "notice": "Planning leads only. Automated titles and suggested questions are not summaries of original findings. Read and verify sources; human review is required before any publication.",
   "lanes": {
     "timely": [
       {
-        "title_or_hook": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation....",
+        "title_or_hook": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation",
         "lane": "timely",
         "source_date": "2026-11-04",
-        "source_url": "https://www.who.int/publications/i/item/B09964",
+        "source_url": "https://www.who.int/publications/i/item/9789240126220",
         "publisher": "WHO NTD",
         "why_it_fits": "Connects disease control evidence with implementation and policy.",
         "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
@@ -104,18 +104,6 @@
     ],
     "evergreen": [
       {
-        "id": "r-packages-2026",
-        "title_or_hook": "Five R packages I kept coming back to in 2026",
-        "lane": "evergreen",
-        "why_it_fits": "Applied R programming for epidemiological analysis and simulation workflows.",
-        "core_angle_for_review": "Five packages chosen from actual repeated use, each paired with a concrete problem solved rather than a popularity ranking.",
-        "recommended_format": "Personal LinkedIn carousel; optional RIDA code note",
-        "estimated_effort": "medium",
-        "best_channel": "Personal profile",
-        "source_material": "Own reproducible R examples; confirm actual top five before writing.",
-        "status": "backlog"
-      },
-      {
         "id": "stratification-targeting-tailoring",
         "title_or_hook": "Stratification, targeting and tailoring: where do they overlap?",
         "lane": "evergreen",
@@ -152,15 +140,27 @@
         "status": "backlog"
       },
       {
-        "id": "multimalmodpy-workflow",
-        "title_or_hook": "What I learned building reproducible multi-model workflows",
+        "id": "r-packages-2026",
+        "title_or_hook": "Five R packages I kept coming back to in 2026",
         "lane": "evergreen",
-        "why_it_fits": "Public software development and computational epidemiology experience.",
-        "core_angle_for_review": "Traceability, documented assumptions, input validation, tests and fair model comparisons.",
-        "recommended_format": "RIDA technical note plus adapted personal reflection",
+        "why_it_fits": "Applied R programming for epidemiological analysis and simulation workflows.",
+        "core_angle_for_review": "Five packages chosen from actual repeated use, each paired with a concrete problem solved rather than a popularity ranking.",
+        "recommended_format": "Personal LinkedIn carousel; optional RIDA code note",
         "estimated_effort": "medium",
-        "best_channel": "Both",
-        "source_material": "Public MultiMalModPy repository and documentation; synthetic reproducible examples.",
+        "best_channel": "Personal profile",
+        "source_material": "Own reproducible R examples; confirm actual top five before writing.",
+        "status": "backlog"
+      },
+      {
+        "id": "professional-lessons",
+        "title_or_hook": "Professional lessons from research and technical consulting",
+        "lane": "evergreen",
+        "why_it_fits": "Draws on research and analytical work across organisational settings.",
+        "core_angle_for_review": "A generalisable lesson about quality, communication, methods or collaboration, illustrated only with public, synthetic or appropriately anonymised examples.",
+        "recommended_format": "Personal LinkedIn post or reflective blog article",
+        "estimated_effort": "medium",
+        "best_channel": "Personal profile",
+        "source_material": "Own reflections; exclude client, colleague and employer-specific incidents or confidential facts.",
         "status": "backlog"
       }
     ]
