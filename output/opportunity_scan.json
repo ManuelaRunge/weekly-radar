@@ -1,41 +1,13 @@
 {
-  "generated_date": "2026-11-09",
+  "generated_date": "2026-11-16",
   "notice": "Planning leads only. Automated titles and suggested questions are not summaries of original findings. Read and verify sources; human review is required before any publication.",
   "lanes": {
     "timely": [
       {
-        "title_or_hook": "Global report on neglected tropical diseases 2026: mid-term evaluation of the road map implementation",
+        "title_or_hook": "Schistosomiasis and soil-transmitted helminthiases: progress report, 2025",
         "lane": "timely",
-        "source_date": "2026-11-04",
-        "source_url": "https://www.who.int/publications/i/item/9789240126220",
-        "publisher": "WHO NTD",
-        "why_it_fits": "Connects disease control evidence with implementation and policy.",
-        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
-        "recommended_format": "Short source-linked commentary",
-        "estimated_effort": "medium",
-        "best_channel": "RIDA",
-        "source_material": "Original linked publication (must be read and checked before posting)",
-        "status": "unreviewed_discovery_lead"
-      },
-      {
-        "title_or_hook": "Public notice and comments on the proposed members of the Guideline Development Group for the WHO guideline for alleviating morbidity due to filarial lymphoedema",
-        "lane": "timely",
-        "source_date": "2026-11-02",
-        "source_url": "https://www.who.int/news-room/articles-detail/public-notice-and-comments-on-the-proposed-members-of-the-guideline-development-group-for-the-who-guideline-for-alleviating-morbidity-due-to-filarial-lymphoedema",
-        "publisher": "WHO NTD",
-        "why_it_fits": "Connects disease control evidence with implementation and policy.",
-        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
-        "recommended_format": "Short source-linked commentary",
-        "estimated_effort": "medium",
-        "best_channel": "RIDA",
-        "source_material": "Original linked publication (must be read and checked before posting)",
-        "status": "unreviewed_discovery_lead"
-      },
-      {
-        "title_or_hook": "Global leishmaniasis surveillance updates 2025",
-        "lane": "timely",
-        "source_date": "2026-11-06",
-        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025",
+        "source_date": "2026-11-13",
+        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-45#sth-schistosomiasis-and-soil-transmitted-helminthiases-progress-report-2025",
         "publisher": "WHO Weekly Epidemiological Record",
         "why_it_fits": "Connects disease control evidence with implementation and policy.",
         "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
@@ -46,39 +18,11 @@
         "status": "unreviewed_discovery_lead"
       },
       {
-        "title_or_hook": "Progress against neglected tropical diseases requires sustained action",
+        "title_or_hook": "Amid challenges, countries increase domestic investment to protect progress against tuberculosis",
         "lane": "timely",
-        "source_date": "2026-11-04",
-        "source_url": "https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action",
-        "publisher": "WHO NTD",
-        "why_it_fits": "Connects disease control evidence with implementation and policy.",
-        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
-        "recommended_format": "Short source-linked commentary",
-        "estimated_effort": "medium",
-        "best_channel": "RIDA",
-        "source_material": "Original linked publication (must be read and checked before posting)",
-        "status": "unreviewed_discovery_lead"
-      },
-      {
-        "title_or_hook": "Two new candidate vaccines to join Ebola trial as treatment research advances",
-        "lane": "timely",
-        "source_date": "2026-11-04",
-        "source_url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+        "source_date": "2026-11-12",
+        "source_url": "https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis",
         "publisher": "WHO Headlines",
-        "why_it_fits": "Research interests in vaccines, malaria and intervention modelling.",
-        "core_angle_for_review": "What evidence is needed to translate vaccine research or policy into delivery decisions?",
-        "recommended_format": "Brief evidence-focused commentary",
-        "estimated_effort": "quick",
-        "best_channel": "Personal profile",
-        "source_material": "Original linked publication (must be read and checked before posting)",
-        "status": "unreviewed_discovery_lead"
-      },
-      {
-        "title_or_hook": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
-        "lane": "timely",
-        "source_date": "2026-11-06",
-        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
-        "publisher": "WHO Disease Outbreak News",
         "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
         "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
         "recommended_format": "Source-linked research commentary",
@@ -88,14 +32,14 @@
         "status": "unreviewed_discovery_lead"
       },
       {
-        "title_or_hook": "Multi-country outbreak of cholera",
+        "title_or_hook": "Health facility solarisation drive unlocks benefits for over 140 million people in underserved communities in Africa and Asia",
         "lane": "timely",
-        "source_date": "2026-11-06",
-        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#cholera-multi-country-outbreak",
-        "publisher": "WHO Weekly Epidemiological Record",
-        "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
-        "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
-        "recommended_format": "Source-linked research commentary",
+        "source_date": "2026-11-11",
+        "source_url": "https://www.gavi.org/news/media-room/health-facility-solarisation-drive-unlocks-benefits-over-140-million-people",
+        "publisher": "Gavi, the Vaccine Alliance",
+        "why_it_fits": "Interest in evidence-to-policy and global health planning.",
+        "core_angle_for_review": "Which steps separate the published evidence from decisions in national programmes?",
+        "recommended_format": "Short professional commentary",
         "estimated_effort": "quick",
         "best_channel": "Personal profile",
         "source_material": "Original linked publication (must be read and checked before posting)",
@@ -103,18 +47,6 @@
       }
     ],
     "evergreen": [
-      {
-        "id": "stratification-targeting-tailoring",
-        "title_or_hook": "Stratification, targeting and tailoring: where do they overlap?",
-        "lane": "evergreen",
-        "why_it_fits": "Direct methodological experience in malaria subnational tailoring.",
-        "core_angle_for_review": "Compare terms as used in WHO guidance and country applications; relate risk classification to intervention allocation without reducing the topic to terminology alone.",
-        "recommended_format": "RIDA illustrated explainer or long-form website article",
-        "estimated_effort": "deep",
-        "best_channel": "RIDA",
-        "source_material": "WHO SNT guidance; original country programme analyses; hypothetical examples clearly labelled.",
-        "status": "backlog"
-      },
       {
         "id": "who-snt-process",
         "title_or_hook": "What does the WHO subnational tailoring approach for malaria involve?",
@@ -152,15 +84,27 @@
         "status": "backlog"
       },
       {
-        "id": "professional-lessons",
-        "title_or_hook": "Professional lessons from research and technical consulting",
+        "id": "stratification-targeting-tailoring",
+        "title_or_hook": "Stratification, targeting and tailoring: where do they overlap?",
         "lane": "evergreen",
-        "why_it_fits": "Draws on research and analytical work across organisational settings.",
-        "core_angle_for_review": "A generalisable lesson about quality, communication, methods or collaboration, illustrated only with public, synthetic or appropriately anonymised examples.",
-        "recommended_format": "Personal LinkedIn post or reflective blog article",
-        "estimated_effort": "medium",
-        "best_channel": "Personal profile",
-        "source_material": "Own reflections; exclude client, colleague and employer-specific incidents or confidential facts.",
+        "why_it_fits": "Direct methodological experience in malaria subnational tailoring.",
+        "core_angle_for_review": "Compare terms as used in WHO guidance and country applications; relate risk classification to intervention allocation without reducing the topic to terminology alone.",
+        "recommended_format": "RIDA illustrated explainer or long-form website article",
+        "estimated_effort": "deep",
+        "best_channel": "RIDA",
+        "source_material": "WHO SNT guidance; original country programme analyses; hypothetical examples clearly labelled.",
+        "status": "backlog"
+      },
+      {
+        "id": "turtle-logo",
+        "title_or_hook": "Why a turtle? The story behind RIDA",
+        "lane": "evergreen",
+        "why_it_fits": "Introduces the independent platform and the person behind it.",
+        "core_angle_for_review": "Explain the actual intended meaning of the logo and the development of the visual identity, without inventing symbolism.",
+        "recommended_format": "First-person LinkedIn story plus distinct RIDA platform introduction",
+        "estimated_effort": "quick",
+        "best_channel": "Both",
+        "source_material": "Own logo iterations, original branding notes and personal rationale.",
         "status": "backlog"
       }
     ]

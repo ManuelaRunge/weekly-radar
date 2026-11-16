@@ -1,10 +1,21 @@
-# RIDA Radar – briefing (2026-11-09)
+# RIDA Radar – briefing (2026-11-16)
 
 > Discovery candidates only. Verify dates, claims, event status and LinkedIn permalinks before sharing.
 
 News covers the previous 30 days, with the last 7 days first and WHO leading within each period. Upcoming events cover the next 180 days, soonest first. Undated leads remain in data/items.json and are excluded from recent news.
 
 ## Priority updates – last 7 days
+- **2026-11-14** [WHO issues first guidelines on type 1 diabetes for adults](https://www.who.int/news/item/14-11-2026-who-issues-first-guidelines-on-type-1-diabetes-for-adults) (WHO Headlines)
+- **2026-11-13** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-45#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
+- **2026-11-13** [Member States reiterate commitment to finalize Pandemic Agreement PABS Annex by May 2027](https://www.who.int/news/item/13-11-2026-member-states-reiterate-commitment-to-finalize-pandemic-agreement-pabs-annex-by-may-2027) (WHO Headlines)
+- **2026-11-13** [Middle East respiratory syndrome (MERS) – Qatar](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON626) (WHO Disease Outbreak News)
+- **2026-11-13** [Schistosomiasis and soil-transmitted helminthiases: progress report, 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-45#sth-schistosomiasis-and-soil-transmitted-helminthiases-progress-report-2025) (WHO Weekly Epidemiological Record)
+- **2026-11-13** [Statement of the Forty-sixth Meeting of the Polio IHR Emergency Committee](https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee) (WHO Headlines)
+- **2026-11-12** [Amid challenges, countries increase domestic investment to protect progress against tuberculosis](https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis) (WHO Headlines)
+- **2026-11-10** [WHO launches “Together for Science and Health” movement to strengthen trust worldwide](https://www.who.int/news/item/10-11-2026-who-launches-together-for-science-and-health-movement-to-strengthen-trust-worldwide) (WHO Headlines)
+- **2026-11-11** [Health facility solarisation drive unlocks benefits for over 140 million people in underserved communities in Africa and Asia](https://www.gavi.org/news/media-room/health-facility-solarisation-drive-unlocks-benefits-over-140-million-people) (Gavi, the Vaccine Alliance)
+
+## Other updates – 8–30 days ago
 - **2026-11-08** [WHO invites feedback on a draft target product profile for wearable devices to measure physical activity and sedentary behaviour in population health monitoring systems](https://www.who.int/news/item/08-11-2026-who-invites-feedback-on-a-draft-target-product-profile-for-wearable-devices-to-measure-physical-activity-and-sedentary-behaviour-in-population-health-monitoring-systems) (WHO Headlines)
 - **2026-11-06** [Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625) (WHO Disease Outbreak News)
 - **2026-11-06** [Global leishmaniasis surveillance updates 2025](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-44#leishmaniasis-global-surveillance-2025) (WHO Weekly Epidemiological Record)
@@ -18,10 +29,6 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-11-04** [Two new candidate vaccines to join Ebola trial as treatment research advances](https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances) (WHO Headlines)
 - **2026-11-02** [Public notice and comments on the proposed members of the Guideline Development Group for the WHO guideline for alleviating morbidity due to filarial lymphoedema](https://www.who.int/news-room/articles-detail/public-notice-and-comments-on-the-proposed-members-of-the-guideline-development-group-for-the-who-guideline-for-alleviating-morbidity-due-to-filarial-lymphoedema) (WHO NTD)
 - **2026-11-02** [Shamonda virus in human - France](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623) (WHO Disease Outbreak News)
-- **2026-11-06** [Extreme heat and climate-sensitive infectious diseases](https://dndi.org/publications/2026/extreme-heat-and-climate-sensitive-infectious-diseases/) (DNDi)
-- **2026-11-02** [Project to develop dengue treatment pre-selected by the Global Coalition for Local and Regional Production, Innovation, and Equitable Access](https://dndi.org/news/2026/project-to-develop-dengue-treatment-pre-selected-by-the-global-coalition-for-local-and-regional-production-innovation-and-equitable-access/) (DNDi)
-
-## Other updates – 8–30 days ago
 - **2026-10-30** [Barbados eliminates mother-to-child transmission of HIV](https://www.who.int/news/item/30-10-2026-barbados-eliminates-mother-to-child-transmission-of-hiv) (WHO Headlines)
 - **2026-10-30** [Global respiratory virus activity: weekly update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-43#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update) (WHO Weekly Epidemiological Record)
 - **2026-10-30** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-43#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
@@ -38,23 +45,11 @@ News covers the previous 30 days, with the last 7 days first and WHO leading wit
 - **2026-10-21** [Call for nominations – new members of the Onchocerciasis Technical Advisory Subgroup (OTS)](https://www.who.int/news-room/articles-detail/call-for-nominations-new-members-of-the-onchocerciasis-technical-advisory-subgroup) (WHO NTD)
 - **2026-10-21** [New global framework launched to track increasing health risks of extreme heat for pregnant women, newborns and children](https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children) (WHO Headlines)
 - **2026-10-20** [A comprehensive external Rabies Control Programme review in Sri Lanka. Report of a WHO mission, 8–15...](https://www.who.int/publications/i/item/9789292800277) (WHO NTD)
-- **2026-10-16** [Bundibugyo virus disease in the Democratic Republic of the Congo: continued transmission and risk of further spread](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#bvd-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-continued-transmission-and-risk-of-further-spread) (WHO Weekly Epidemiological Record)
-- **2026-10-16** [Global respiratory virus activity: weekly update](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#respiratory-virus-activity-global-respiratory-virus-activity-weekly-update) (WHO Weekly Epidemiological Record)
-- **2026-10-16** [Highlighted signals and events](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#signals-highlighted-signals-and-events) (WHO Weekly Epidemiological Record)
-- **2026-10-16** [Recommended composition of influenza virus vaccines for use in the 2027 southern hemisphere influenza season](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-41#influenza-vaccine-2027-recommended-composition-of-influenza-virus-vaccines-for-use-in-the-2027-southern-hemisphere-influenza-season) (WHO Weekly Epidemiological Record)
-- **2026-10-15** [Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia](https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---kingdom-of-saudi-arabia) (WHO Disease Outbreak News)
-- **2026-10-15** [Requests for inclusion of new neglected tropical diseases put on hold pending review of criteria](https://www.who.int/news/item/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO NTD)
-- **2026-10-15** [WHO NTD inclusion criteria review](https://www.who.int/japan/news/detail-global/15-10-2026-requests-for-inclusion-of-new-neglected-tropical-diseases-put-on-hold-pending-review-of-criteria) (WHO)
-- **2026-10-13** [WHO NTD supply chain alignment](https://www.who.int/news/item/13-10-2026-who-and-partners-drive-improved-alignment-for-effective-ntd-and-supply-chain-delivery) (WHO)
-- **2026-10-12** [IPC Sudan Food Insecurity and Malnutrition Alert](https://www.who.int/news/item/12-10-2026-ipc-sudan-food-insecurity-and-malnutrition-alert) (WHO Headlines)
-- **2026-10-12** [WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours](https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours) (WHO Headlines)
-- **2026-10-12** [WHO welcomes adoption of United Nations political declaration on pandemic prevention, preparedness and response](https://www.who.int/news/item/12-10-2026-who-welcomes-adoption-of-united-nations-political-declaration-on-pandemic-prevention-preparedness-and-response) (WHO Headlines)
-- **2026-10-10** [Pneumonia of undetermined etiology - the Russian Federation](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620) (WHO Disease Outbreak News)
 - **2026-10-27** [Advancing Health Campaign Effectiveness: Lessons from the Collaborative Action Strategy Pilot Phase](https://campaigneffectiveness.org/advancing-health-campaign-effectiveness-lessons-from-the-collaborative-action-strategy-pilot-phase/) (Campaign Effectiveness)
-- **2026-10-29** [DNDi welcomes GHIT Fund’s support for innovative approaches to improve success in Chagas disease drug discovery with Nagasaki University, the University of Dundee, and Eisai](https://dndi.org/press-releases/2026/ghit-funds-support-innovative-approaches-improve-success-chagas-disease-drug-discovery-with-nagasaki-university-university-dundee-eisai/) (DNDi)
 
 ## Upcoming events – by date
-- **2026-11-10** [Hackathon: Working with an AI Coding Agent: Epidemic Forecasting from Partial Outbreak Data](https://www.ammnet.org/seminars/hackathon-working-with-an-ai-coding-agent-epidemic-forecasting-from-partial-outbreak-data) (AMMnet Events)
+- **2026-11-25** [Webinar – Real gains, fragile progress: What the NTD road map mid-term evaluation tells us](https://www.who.int/news-room/events/detail/2026/11/25/default-calendar/webinar--real-gains--fragile-progress--what-the-ntd-road-map-mid-term-evaluation-tells-us) (WHO NTD)
 - **2026-11-30** [Strengthening Blackfly Surveillance for the Onchocerciasis Endgame](https://www.who.int/news-room/events/detail/2026/11/30/default-calendar/strengthening-blackfly-surveillance-for-the-onchocerciasis-endgame) (WHO NTD)
+- **2026-12-01** [From laboratory capacity to environmental readiness: building African systems for innovative mosquito control technologies](https://www.ammnet.org/seminars/gene-drive-mosquitoes-and-other-innovative-approaches) (AMMnet Events)
 - **2026-12-15** [Webinar – From financing opportunities to results: What has worked and what comes next](https://www.who.int/news-room/events/detail/2026/12/15/default-calendar/webinar--from-financing-opportunities-to-results--what-has-worked-and-what-comes-next) (WHO NTD)
 - **2027-01-31** [MalVax 2027](https://www.malvax.org/) (MalVax)
