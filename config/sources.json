@@ -29,5 +29,14 @@
  {"name":"CEMA, University of Nairobi","url":"https://cema-africa.uonbi.ac.ke/","category":"epidemiology","method":"page","priority":"core"},
  {"name":"CEMA News","url":"https://cema-africa.uonbi.ac.ke/news","category":"epidemiology","method":"page","priority":"core"},
  {"name":"CRAN Epidemiology","url":"https://cran.r-project.org/view=Epidemiology","category":"tools","method":"page","priority":"optional"},
- {"name":"MalVax Alliance","url":"https://www.malvax.org/","category":"vaccines","method":"page","priority":"secondary"}
+ {"name":"MalVax Alliance","url":"https://www.malvax.org/","category":"vaccines","method":"page","priority":"secondary"},
+ {"name":"MIM Society","url":"https://www.mim-africa.org/conferences","category":"events","method":"page","priority":"core"},
+ {"name":"ASTMH News","url":"https://www.astmh.org/","category":"global-health","method":"cards","priority":"core","item_selector":"div.md\\:flex-row.gap-5","title_selector":"h6","date_selector":"p.mt-auto"},
+ {"name":"ASTMH Events","url":"https://www.astmh.org/","category":"events","method":"cards","priority":"core","item_selector":"div.w-full.sm\\:flex-row","title_selector":"h3","date_selector":"div.flex.flex-col","date_type":"event"},
+ {"name":"ASTMH Annual Meetings","url":"https://www.astmh.org/annual-meeting/past-meeting","category":"events","method":"astmh_meetings","priority":"core"},
+ {"name":"ECTMIH","url":"https://ectmih2027.eu/","category":"events","method":"page","priority":"core"},
+ {"name":"FESTMIH Congress","url":"https://www.festmih.eu/pages/biennial-congress","category":"events","method":"page","priority":"core"},
+ {"name":"RSTMH Events","url":"https://www.rstmh.org/events","category":"events","method":"page","priority":"core"},
+ {"name":"RSTMH News","url":"https://www.rstmh.org/news","category":"global-health","method":"page","priority":"core"},
+ {"name":"EPIDEMICS","url":"https://www.elsevier.com/events/conferences/all/international-conference-on-infectious-disease-dynamics","category":"events","method":"page","priority":"core"}
 ]

@@ -23,7 +23,7 @@ TOPIC = re.compile(
     r"vector.borne|epidemiolog\w*|epidemic\w*|outbreak|surveillance|"
     r"stratif\w*|tailor\w*|modelling|modeling|forecast\w*|"
     r"campaign effectiveness|health financing|health systems|"
-    r"health policy|climate.sensitive infectious|antimicrobial resistance)\b",
+    r"health policy|climate.sensitive infectious|antimicrobial resistance|tropical medicine|infectious disease dynamics)\b",
     re.I,
 )
 GENERAL = re.compile(

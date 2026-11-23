@@ -38,10 +38,10 @@ def date_from_text(text):
         for fmt in ('%d %B %Y','%d %b %Y'):
             try:return dt.datetime.strptime(' '.join(match.groups()),fmt).date().isoformat()
             except ValueError:pass
-    match=re.search(r'\b[A-Za-z]+ \d{1,2},? \d{4}\b',text)
+    match=re.search(r'\b([A-Za-z]+)\s+(\d{1,2})(?:\s*[–-]\s*\d{1,2})?,?\s+(\d{4})\b',text)
     if match:
         for fmt in ('%B %d %Y','%b %d %Y'):
-            try:return dt.datetime.strptime(match.group().replace(',',''),fmt).date().isoformat()
+            try:return dt.datetime.strptime(' '.join(match.groups()),fmt).date().isoformat()
             except ValueError:pass
     return ''
 
@@ -189,6 +189,23 @@ def collect_source(source):
     return [item for item in records if keyword_match(item['title']+' '+item.get('notes',''),groups)]
 
 
+def parse_astmh_meetings(html, source):
+    """Read the nearest future annual meeting, not the archive's posting date."""
+    soup=BeautifulSoup(html,'html.parser')
+    text=(soup.find('main') or soup).get_text(' ',strip=True)
+    matches=re.findall(r'(?<!\d)(20\d{2}) Annual Meeting\s+([A-Za-z]+\s+\d{1,2}\s*[–-]\s*\d{1,2},?\s+20\d{2})',text)
+    if not matches:raise ValueError('No dated ASTMH annual meetings found; check source layout')
+    upcoming=[]
+    for year,label in matches:
+        date=date_from_text(label)
+        if date and date.startswith(year) and date>=TODAY:
+            upcoming.append((date,year))
+    if not upcoming:return []
+    date,year=min(upcoming)
+    return [record(f'ASTMH {year} Annual Meeting – tropical medicine and global health',
+                   source['url'],source['name'],'events','astmh_meetings',event_date=date)]
+
+
 def _collect_source(s):
     if s['method']=='gates_news':return gates_news(s,HEADERS,record,date_from_text)
     if s['method']=='worldbank_news':return worldbank_news(s,HEADERS,record,date_from_text)
@@ -197,6 +214,7 @@ def _collect_source(s):
     if s['method']=='who_headlines':return collect_headlines(s)
     r=requests.get(s['url'],headers=HEADERS,timeout=20)
     r.raise_for_status()
+    if s['method']=='astmh_meetings':return parse_astmh_meetings(r.text,s)
     if s['method']=='cards':return parse_cards(r.text,s)
     results=[]
     if s['method']=='feed':

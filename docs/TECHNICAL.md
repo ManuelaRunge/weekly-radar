@@ -23,6 +23,12 @@ Reader-facing output uses en dashes and places each source/publisher in parenthe
 
 Additional financing sources are [the Global Fund's latest feed](https://www.theglobalfund.org/data/rss-feeds/latest/), [Gavi press releases](https://www.gavi.org/news-insights/media-room/press-releases), [World Bank health news](https://www.worldbank.org/en/topic/health/news), [Gates Foundation's media centre](https://www.gatesfoundation.org/ideas/media-center), and [Wellcome articles](https://wellcome.org/insights/articles). Financing keyword groups screen titles and available source summaries; Gates and World Bank additionally require a health-related match. Gates and World Bank's public listing APIs are discovered from their news pages rather than hardcoding changing listing IDs. These items share the existing 30-day news window and seven-day prominence, with no separate briefing section. Missing dates are never replaced by discovery dates. The GFF newsroom currently blocks automated requests and is not enabled.
 
+## Conference monitoring
+
+MIM Society, ASTMH, ECTMIH/FESTMIH, RSTMH and the EPIDEMICS infectious disease dynamics conference are monitored alongside the research networks. ASTMH uses dated homepage news/event cards and the next annual meeting from its archive; its empty client-rendered news/event listing pages are avoided. RSTMH currently returns HTTP 403 to automated requests: its configured pages will be retried weekly and failures reported in `data/errors.json`.
+
+Verified MIM Kigali (26–30 April 2027), ECTMIH Barcelona (25–28 October 2027) and EPIDEMICS Singapore (5–8 December 2027) dates are in `config/manual_links.csv`. No publication dates are guessed. The existing 180-day event horizon still applies; late-2027 conferences enter the briefing when in range. Undated conference announcements remain discovery leads.
+
 ## Get started
 
 From the repository root, using Python 3.12:
@@ -58,7 +64,7 @@ The **RIDA Radar** GitHub Actions workflow runs each Monday at 06:15 UTC and can
 
 ### Releases and tags
 
-Every successful scheduled or manual workflow attempt publishes a release with a unique tag such as `radar-20261017T120000Z-123456789-1`: UTC timestamp, GitHub run ID and attempt number. Reruns get a distinct attempt number, including when the source content is unchanged. The tag targets the commit containing that run's README, data and outputs. A failed generation, test or push does not proceed to publication.
+Every successful scheduled or manual workflow attempt publishes a release with a unique tag such as `radar-20261017T120000Z-123456789-1`: UTC timestamp, GitHub run ID and attempt number. Reruns get a distinct attempt number, including when the source content is unchanged. Reader-facing release titles use only the date, for example `RIDA Radar – radar-20261123`; the full unique tag remains in the URL and run notes. The tag targets the commit containing that run's README, data and outputs. A failed generation, test or push does not proceed to publication.
 
 The release body contains the run summary, source errors and the full `output/latest.md` briefing. `latest.md`, `release_notes.md`, `public.json` and `opportunity_scan.json` are also attached as downloads. The release is marked Latest. The workflow uses its built-in `GITHUB_TOKEN` with `contents: write`; no additional release token is needed. Branch or tag protection rules must permit these workflow writes. Releases inherit the repository's visibility.
 
