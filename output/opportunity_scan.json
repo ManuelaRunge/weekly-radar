@@ -1,14 +1,28 @@
 {
-  "generated_date": "2026-11-16",
+  "generated_date": "2026-11-23",
   "notice": "Planning leads only. Automated titles and suggested questions are not summaries of original findings. Read and verify sources; human review is required before any publication.",
   "lanes": {
     "timely": [
       {
-        "title_or_hook": "Schistosomiasis and soil-transmitted helminthiases: progress report, 2025",
+        "title_or_hook": "Circulating vaccine-derived poliovirus type 1 – Syrian Arab Republic",
         "lane": "timely",
-        "source_date": "2026-11-13",
-        "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-45#sth-schistosomiasis-and-soil-transmitted-helminthiases-progress-report-2025",
-        "publisher": "WHO Weekly Epidemiological Record",
+        "source_date": "2026-11-23",
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
+        "publisher": "WHO Disease Outbreak News",
+        "why_it_fits": "Research interests in vaccines, malaria and intervention modelling.",
+        "core_angle_for_review": "What evidence is needed to translate vaccine research or policy into delivery decisions?",
+        "recommended_format": "Brief evidence-focused commentary",
+        "estimated_effort": "quick",
+        "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Eritrea eliminates trachoma: a major public health milestone",
+        "lane": "timely",
+        "source_date": "2026-11-16",
+        "source_url": "https://www.who.int/news/item/16-11-2026-eritrea-eliminates-trachoma-a-major-public-health-milestone",
+        "publisher": "WHO NTD",
         "why_it_fits": "Connects disease control evidence with implementation and policy.",
         "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
         "recommended_format": "Short source-linked commentary",
@@ -18,10 +32,24 @@
         "status": "unreviewed_discovery_lead"
       },
       {
-        "title_or_hook": "Amid challenges, countries increase domestic investment to protect progress against tuberculosis",
+        "title_or_hook": "Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
         "lane": "timely",
-        "source_date": "2026-11-12",
-        "source_url": "https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis",
+        "source_date": "2026-11-20",
+        "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+        "publisher": "WHO Disease Outbreak News",
+        "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
+        "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
+        "recommended_format": "Source-linked research commentary",
+        "estimated_effort": "quick",
+        "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "More countries have antimicrobial resistance plans but patients still lack testing and treatment",
+        "lane": "timely",
+        "source_date": "2026-11-16",
+        "source_url": "https://www.who.int/news/item/16-11-2026-more-countries-have-antimicrobial-resistance-plans-but-patients-still-lack-testing-and-treatment",
         "publisher": "WHO Headlines",
         "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
         "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
@@ -32,33 +60,35 @@
         "status": "unreviewed_discovery_lead"
       },
       {
-        "title_or_hook": "Health facility solarisation drive unlocks benefits for over 140 million people in underserved communities in Africa and Asia",
+        "title_or_hook": "Making Integration Work: Health Campaign Effectiveness at the 2026 NNN Conference",
         "lane": "timely",
-        "source_date": "2026-11-11",
-        "source_url": "https://www.gavi.org/news/media-room/health-facility-solarisation-drive-unlocks-benefits-over-140-million-people",
-        "publisher": "Gavi, the Vaccine Alliance",
-        "why_it_fits": "Interest in evidence-to-policy and global health planning.",
-        "core_angle_for_review": "Which steps separate the published evidence from decisions in national programmes?",
-        "recommended_format": "Short professional commentary",
+        "source_date": "2026-11-19",
+        "source_url": "https://campaigneffectiveness.org/making-integration-work-health-campaign-effectiveness-at-the-2026-nnn-conference/",
+        "publisher": "Campaign Effectiveness resources",
+        "why_it_fits": "Relevant to infectious disease epidemiology and evidence synthesis.",
+        "core_angle_for_review": "What should be checked in the original source before drawing programmatic conclusions?",
+        "recommended_format": "Source-linked research commentary",
         "estimated_effort": "quick",
         "best_channel": "Personal profile",
+        "source_material": "Original linked publication (must be read and checked before posting)",
+        "status": "unreviewed_discovery_lead"
+      },
+      {
+        "title_or_hook": "Thailand Science Research and Innovation to invest in the Dengue Alliance",
+        "lane": "timely",
+        "source_date": "2026-11-23",
+        "source_url": "https://dndi.org/press-releases/2026/thailand-science-research-innovation-invest-dengue-alliance/",
+        "publisher": "DNDi",
+        "why_it_fits": "Connects disease control evidence with implementation and policy.",
+        "core_angle_for_review": "Which data, surveillance or programme decisions are relevant, and what remains uncertain?",
+        "recommended_format": "Short source-linked commentary",
+        "estimated_effort": "medium",
+        "best_channel": "RIDA",
         "source_material": "Original linked publication (must be read and checked before posting)",
         "status": "unreviewed_discovery_lead"
       }
     ],
     "evergreen": [
-      {
-        "id": "who-snt-process",
-        "title_or_hook": "What does the WHO subnational tailoring approach for malaria involve?",
-        "lane": "evergreen",
-        "why_it_fits": "Experience with malaria intervention modelling and national programme planning.",
-        "core_angle_for_review": "A practical walk-through of evidence inputs, stratification, intervention selection and resource allocation, distinguishing WHO recommendations from local examples.",
-        "recommended_format": "RIDA technical note or process carousel",
-        "estimated_effort": "deep",
-        "best_channel": "RIDA",
-        "source_material": "WHO malaria SNT reference manual; verified published country applications; synthetic district example.",
-        "status": "backlog"
-      },
       {
         "id": "model-validation",
         "title_or_hook": "When is an infectious disease model fit for purpose?",
@@ -96,15 +126,27 @@
         "status": "backlog"
       },
       {
-        "id": "turtle-logo",
-        "title_or_hook": "Why a turtle? The story behind RIDA",
+        "id": "who-snt-process",
+        "title_or_hook": "What does the WHO subnational tailoring approach for malaria involve?",
         "lane": "evergreen",
-        "why_it_fits": "Introduces the independent platform and the person behind it.",
-        "core_angle_for_review": "Explain the actual intended meaning of the logo and the development of the visual identity, without inventing symbolism.",
-        "recommended_format": "First-person LinkedIn story plus distinct RIDA platform introduction",
-        "estimated_effort": "quick",
+        "why_it_fits": "Experience with malaria intervention modelling and national programme planning.",
+        "core_angle_for_review": "A practical walk-through of evidence inputs, stratification, intervention selection and resource allocation, distinguishing WHO recommendations from local examples.",
+        "recommended_format": "RIDA technical note or process carousel",
+        "estimated_effort": "deep",
+        "best_channel": "RIDA",
+        "source_material": "WHO malaria SNT reference manual; verified published country applications; synthetic district example.",
+        "status": "backlog"
+      },
+      {
+        "id": "multimalmodpy-workflow",
+        "title_or_hook": "What I learned building reproducible multi-model workflows",
+        "lane": "evergreen",
+        "why_it_fits": "Public software development and computational epidemiology experience.",
+        "core_angle_for_review": "Traceability, documented assumptions, input validation, tests and fair model comparisons.",
+        "recommended_format": "RIDA technical note plus adapted personal reflection",
+        "estimated_effort": "medium",
         "best_channel": "Both",
-        "source_material": "Own logo iterations, original branding notes and personal rationale.",
+        "source_material": "Public MultiMalModPy repository and documentation; synthetic reproducible examples.",
         "status": "backlog"
       }
     ]

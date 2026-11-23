@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_date": "2026-11-16",
+  "generated_date": "2026-11-23",
   "status": "automated_source_discovery_not_independently_verified",
   "notice": "Source-linked leads only. Verify original publication dates, claims and events before relying on them. Inclusion does not imply endorsement.",
   "sections": [
@@ -10,25 +10,46 @@
       "description": "Source items published within the last seven days",
       "items": [
         {
-          "title": "Schistosomiasis and soil-transmitted helminthiases: progress report, 2025",
-          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-45#sth-schistosomiasis-and-soil-transmitted-helminthiases-progress-report-2025",
-          "date": "2026-11-13",
-          "publisher": "WHO Weekly Epidemiological Record",
+          "title": "Circulating vaccine-derived poliovirus type 1 – Syrian Arab Republic",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
+          "date": "2026-11-23",
+          "publisher": "WHO Disease Outbreak News",
+          "topic": "Vaccines & immunisation"
+        },
+        {
+          "title": "Eritrea eliminates trachoma: a major public health milestone",
+          "url": "https://www.who.int/news/item/16-11-2026-eritrea-eliminates-trachoma-a-major-public-health-milestone",
+          "date": "2026-11-16",
+          "publisher": "WHO NTD",
           "topic": "Neglected tropical diseases"
         },
         {
-          "title": "Amid challenges, countries increase domestic investment to protect progress against tuberculosis",
-          "url": "https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis",
-          "date": "2026-11-12",
+          "title": "Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+          "date": "2026-11-20",
+          "publisher": "WHO Disease Outbreak News",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "More countries have antimicrobial resistance plans but patients still lack testing and treatment",
+          "url": "https://www.who.int/news/item/16-11-2026-more-countries-have-antimicrobial-resistance-plans-but-patients-still-lack-testing-and-treatment",
+          "date": "2026-11-16",
           "publisher": "WHO Headlines",
           "topic": "Infectious disease research"
         },
         {
-          "title": "Health facility solarisation drive unlocks benefits for over 140 million people in underserved communities in Africa and Asia",
-          "url": "https://www.gavi.org/news/media-room/health-facility-solarisation-drive-unlocks-benefits-over-140-million-people",
-          "date": "2026-11-11",
-          "publisher": "Gavi, the Vaccine Alliance",
-          "topic": "Policy & implementation"
+          "title": "Making Integration Work: Health Campaign Effectiveness at the 2026 NNN Conference",
+          "url": "https://campaigneffectiveness.org/making-integration-work-health-campaign-effectiveness-at-the-2026-nnn-conference/",
+          "date": "2026-11-19",
+          "publisher": "Campaign Effectiveness resources",
+          "topic": "Infectious disease research"
+        },
+        {
+          "title": "Thailand Science Research and Innovation to invest in the Dengue Alliance",
+          "url": "https://dndi.org/press-releases/2026/thailand-science-research-innovation-invest-dengue-alliance/",
+          "date": "2026-11-23",
+          "publisher": "DNDi",
+          "topic": "Neglected tropical diseases"
         }
       ]
     },
@@ -73,11 +94,11 @@
           "topic": "Vaccines & immunisation"
         },
         {
-          "title": "15th meeting of the WHO Working Group for the Molecular Detection and Subtyping of Influenza Viruses and the Use of Next Generation Sequencing in the Global Influenza Surveillance and Response System",
-          "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-42#pcr-ngs-wg-15th-meeting",
-          "date": "2026-10-23",
-          "publisher": "WHO Weekly Epidemiological Record",
-          "topic": "Infectious disease research"
+          "title": "Types of data requested to inform December 2026 COVID-19 vaccine antigen composition deliberations",
+          "url": "https://www.who.int/news/item/27-10-2026-types-of-data-requested-to-inform-december-2026-covid-19-vaccine-antigen-composition-deliberations",
+          "date": "2026-10-27",
+          "publisher": "WHO Headlines",
+          "topic": "Vaccines & immunisation"
         }
       ]
     },
@@ -92,6 +113,13 @@
           "date": "2026-11-25",
           "publisher": "WHO NTD",
           "topic": "Neglected tropical diseases"
+        },
+        {
+          "title": "Francophone Webinar Series: Guiding malaria elimination interventions: a data-driven approach to resource optimization in Benin, West Africa",
+          "url": "https://www.ammnet.org/seminars/francophone-webinar-series",
+          "date": "2026-11-25",
+          "publisher": "AMMnet Events",
+          "topic": "Malaria & subnational planning"
         },
         {
           "title": "Strengthening Blackfly Surveillance for the Onchocerciasis Endgame",
